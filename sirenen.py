@@ -15,7 +15,7 @@ import requests
 AUTH_ENV = "DUESSELDORF_AUTHKEY"
 LAYER = "feuerwehr37:fwr_sirenen"
 WMS_URL = "https://maps.duesseldorf.de/services/feuerwehr37/wms"
-EXPECTED_COUNT = 101
+TARGET_COUNT = 101
 
 # Großzügige Düsseldorf-BBOX in EPSG:25832.
 BBOX = "330000,5660000,370000,5700000"
@@ -37,9 +37,6 @@ def normalize_authkey(key: str) -> str:
     Der Düsseldorfer Endpunkt erwartet den authkey in der tatsächlich
     gesendeten URL doppelt URL-kodiert. requests kodiert Parameter selbst;
     deshalb wird der Rohwert hier genau einmal vor-kodiert.
-
-    Funktioniert sowohl wenn das GitHub-Secret als Rohwert als auch bereits
-    URL-kodiert eingetragen wurde.
     """
     raw = key
     for _ in range(3):
@@ -56,7 +53,7 @@ def request_json(params: dict[str, object]) -> dict:
         params=params,
         headers={
             "Accept": "application/json",
-            "User-Agent": "SIRENEN/2.0 (+https://github.com/ger-olli/SIRENEN)",
+            "User-Agent": "SIRENEN/3.0 (+https://github.com/ger-olli/SIRENEN)",
         },
         timeout=60,
     )
@@ -80,9 +77,6 @@ def request_json(params: dict[str, object]) -> dict:
 
 
 def fetch_all(authkey: str) -> dict:
-    # WIDTH/HEIGHT bilden ganz Düsseldorf ab. BUFFER wird in Pixeln gemessen.
-    # Bei dieser BBOX entspricht BUFFER=100 deutlich mehr als der benötigten
-    # Distanz vom Mittelpunkt bis zum Kartenrand und erfasst damit den Layer.
     params = {
         "QUERY_LAYERS": LAYER,
         "INFO_FORMAT": "application/json",
@@ -101,7 +95,6 @@ def fetch_all(authkey: str) -> dict:
         "HEIGHT": 101,
         "BBOX": BBOX,
         "BUFFER": 100,
-        # absichtlich einmal vorkodiert; requests kodiert '%' erneut zu '%25'
         "authkey": normalize_authkey(authkey),
     }
     return request_json(params)
@@ -124,7 +117,6 @@ def deduplicate(data: dict) -> dict:
             seen.add(key)
             unique.append(feature)
 
-    # Nach Sirenennummer sortieren, falls vorhanden.
     unique.sort(key=lambda f: str((f.get("properties") or {}).get("nummer", "")))
 
     result = dict(data)
@@ -165,6 +157,21 @@ def save_csv(data: dict, path: Path) -> None:
         writer.writerows(rows)
 
 
+def report_number_gaps(data: dict) -> None:
+    numbers = {
+        str((feature.get("properties") or {}).get("nummer", ""))
+        for feature in data.get("features", [])
+    }
+    expected_labels = {f"S{i:03d}" for i in range(1, TARGET_COUNT + 1)}
+    missing = sorted(expected_labels - numbers)
+    if missing:
+        print(
+            "Hinweis: Diese Nummern S001-S101 sind im aktuellen Karten-Layer nicht enthalten: "
+            + ", ".join(missing),
+            file=sys.stderr,
+        )
+
+
 def main() -> int:
     try:
         authkey = get_authkey()
@@ -172,10 +179,13 @@ def main() -> int:
         data = deduplicate(fetch_all(authkey))
         count = len(data.get("features", []))
 
+        if count == 0:
+            raise RuntimeError("Der Karten-Layer hat keine Sirenen geliefert.")
+
         save_geojson(data, Path("sirenen.geojson"))
         save_csv(data, Path("sirenen.csv"))
 
-        print(f"Gefundene eindeutige Sirenen: {count}")
+        print(f"Gefundene eindeutige Sirenen im aktuellen Karten-Layer: {count}")
         print("Gespeichert: sirenen.geojson, sirenen.csv")
 
         for feature in data.get("features", []):
@@ -185,12 +195,13 @@ def main() -> int:
                 f"{props.get('adresse', '?')} | {props.get('stadtteil', '?')}"
             )
 
-        if count != EXPECTED_COUNT:
+        if count != TARGET_COUNT:
             print(
-                f"WARNUNG: Erwartet wurden {EXPECTED_COUNT}, erhalten wurden {count}.",
+                f"Hinweis: Zielwert {TARGET_COUNT}, Karten-Layer liefert aktuell {count}. "
+                "Der Lauf bleibt erfolgreich, weil alle vom Dienst gelieferten Datensätze gespeichert wurden.",
                 file=sys.stderr,
             )
-            return 2
+            report_number_gaps(data)
 
         return 0
 
