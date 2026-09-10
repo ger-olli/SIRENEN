@@ -17,8 +17,13 @@ LAYER = "feuerwehr37:fwr_sirenen"
 WMS_URL = "https://maps.duesseldorf.de/services/feuerwehr37/wms"
 TARGET_COUNT = 101
 
-# Großzügige Düsseldorf-BBOX in EPSG:25832.
-BBOX = "330000,5660000,370000,5700000"
+# Erweiterter Suchraum um Düsseldorf in EPSG:25832.
+SEARCH_BBOX = (320000.0, 5650000.0, 380000.0, 5710000.0)
+GRID_SIZE = 4
+OVERLAP = 0.15
+BUFFER_PX = 90
+WIDTH = 101
+HEIGHT = 101
 
 
 def get_authkey() -> str:
@@ -32,12 +37,7 @@ def get_authkey() -> str:
 
 
 def normalize_authkey(key: str) -> str:
-    """Key auf Rohwert normalisieren und einmal vorkodieren.
-
-    Der Düsseldorfer Endpunkt erwartet den authkey in der tatsächlich
-    gesendeten URL doppelt URL-kodiert. requests kodiert Parameter selbst;
-    deshalb wird der Rohwert hier genau einmal vor-kodiert.
-    """
+    """Key auf Rohwert normalisieren und einmal vorkodieren."""
     raw = key
     for _ in range(3):
         decoded = unquote(raw)
@@ -47,17 +47,16 @@ def normalize_authkey(key: str) -> str:
     return quote(raw, safe="")
 
 
-def request_json(params: dict[str, object]) -> dict:
-    response = requests.get(
+def request_json(params: dict[str, object], session: requests.Session) -> dict:
+    response = session.get(
         WMS_URL,
         params=params,
         headers={
             "Accept": "application/json",
-            "User-Agent": "SIRENEN/3.0 (+https://github.com/ger-olli/SIRENEN)",
+            "User-Agent": "SIRENEN/4.0 (+https://github.com/ger-olli/SIRENEN)",
         },
         timeout=60,
     )
-
     print(f"HTTP-Status: {response.status_code}")
     response.raise_for_status()
 
@@ -72,11 +71,29 @@ def request_json(params: dict[str, object]) -> dict:
             "Antwort ist keine GeoJSON FeatureCollection: "
             + json.dumps(data, ensure_ascii=False)[:1000]
         )
-
     return data
 
 
-def fetch_all(authkey: str) -> dict:
+def make_tiles() -> list[tuple[float, float, float, float]]:
+    minx, miny, maxx, maxy = SEARCH_BBOX
+    step_x = (maxx - minx) / GRID_SIZE
+    step_y = (maxy - miny) / GRID_SIZE
+    pad_x = step_x * OVERLAP
+    pad_y = step_y * OVERLAP
+
+    tiles = []
+    for row in range(GRID_SIZE):
+        for col in range(GRID_SIZE):
+            x1 = minx + col * step_x - pad_x
+            y1 = miny + row * step_y - pad_y
+            x2 = minx + (col + 1) * step_x + pad_x
+            y2 = miny + (row + 1) * step_y + pad_y
+            tiles.append((x1, y1, x2, y2))
+    return tiles
+
+
+def fetch_tile(authkey: str, bbox: tuple[float, float, float, float], session: requests.Session) -> dict:
+    bbox_value = ",".join(f"{v:.3f}" for v in bbox)
     params = {
         "QUERY_LAYERS": LAYER,
         "INFO_FORMAT": "application/json",
@@ -89,15 +106,37 @@ def fetch_all(authkey: str) -> dict:
         "CRS": "EPSG:25832",
         "LAYERS": LAYER,
         "FEATURE_COUNT": 500,
-        "I": 50,
-        "J": 50,
-        "WIDTH": 101,
-        "HEIGHT": 101,
-        "BBOX": BBOX,
-        "BUFFER": 100,
+        "I": WIDTH // 2,
+        "J": HEIGHT // 2,
+        "WIDTH": WIDTH,
+        "HEIGHT": HEIGHT,
+        "BBOX": bbox_value,
+        "BUFFER": BUFFER_PX,
         "authkey": normalize_authkey(authkey),
     }
-    return request_json(params)
+    return request_json(params, session)
+
+
+def fetch_all(authkey: str) -> dict:
+    all_features: list[dict] = []
+    tiles = make_tiles()
+
+    with requests.Session() as session:
+        for index, bbox in enumerate(tiles, start=1):
+            print(
+                f"Kachel {index}/{len(tiles)}: "
+                f"{bbox[0]:.0f},{bbox[1]:.0f},{bbox[2]:.0f},{bbox[3]:.0f}"
+            )
+            data = fetch_tile(authkey, bbox, session)
+            features = data.get("features", [])
+            print(f"  Treffer in Kachel: {len(features)}")
+            all_features.extend(features)
+
+    return {
+        "type": "FeatureCollection",
+        "features": all_features,
+        "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:EPSG::25832"}},
+    }
 
 
 def deduplicate(data: dict) -> dict:
@@ -109,7 +148,7 @@ def deduplicate(data: dict) -> dict:
         props = feature.get("properties") or {}
         key = str(
             props.get("nummer")
-            or props.get("id")
+            or props.get("_uuid")
             or feature.get("id")
             or json.dumps(feature, sort_keys=True, ensure_ascii=False)
         )
@@ -126,10 +165,7 @@ def deduplicate(data: dict) -> dict:
 
 
 def save_geojson(data: dict, path: Path) -> None:
-    path.write_text(
-        json.dumps(data, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def save_csv(data: dict, path: Path) -> None:
@@ -146,6 +182,7 @@ def save_csv(data: dict, path: Path) -> None:
         "stadt",
         "beschallungsradius",
         "_last_update",
+        "_uuid",
     ]
     all_fields = {key for row in rows for key in row.keys()}
     fields = [field for field in preferred if field in all_fields]
@@ -165,17 +202,18 @@ def report_number_gaps(data: dict) -> None:
     expected_labels = {f"S{i:03d}" for i in range(1, TARGET_COUNT + 1)}
     missing = sorted(expected_labels - numbers)
     if missing:
-        print(
-            "Hinweis: Diese Nummern S001-S101 sind im aktuellen Karten-Layer nicht enthalten: "
-            + ", ".join(missing),
-            file=sys.stderr,
-        )
+        print("Fehlende Nummern: " + ", ".join(missing), file=sys.stderr)
+    else:
+        print("Alle Nummern S001-S101 gefunden.")
 
 
 def main() -> int:
     try:
         authkey = get_authkey()
-        print("Rufe Düsseldorfer WMS GetFeatureInfo ab …")
+        print(
+            f"Scanne erweiterten Düsseldorfer Suchraum in {GRID_SIZE}x{GRID_SIZE} Kacheln, "
+            f"BUFFER={BUFFER_PX}px, Überlappung={int(OVERLAP * 100)}% …"
+        )
         data = deduplicate(fetch_all(authkey))
         count = len(data.get("features", []))
 
@@ -185,8 +223,9 @@ def main() -> int:
         save_geojson(data, Path("sirenen.geojson"))
         save_csv(data, Path("sirenen.csv"))
 
-        print(f"Gefundene eindeutige Sirenen im aktuellen Karten-Layer: {count}")
+        print(f"Gefundene eindeutige Sirenen: {count}")
         print("Gespeichert: sirenen.geojson, sirenen.csv")
+        report_number_gaps(data)
 
         for feature in data.get("features", []):
             props = feature.get("properties") or {}
@@ -194,14 +233,6 @@ def main() -> int:
                 f"- {props.get('nummer', '?')}: "
                 f"{props.get('adresse', '?')} | {props.get('stadtteil', '?')}"
             )
-
-        if count != TARGET_COUNT:
-            print(
-                f"Hinweis: Zielwert {TARGET_COUNT}, Karten-Layer liefert aktuell {count}. "
-                "Der Lauf bleibt erfolgreich, weil alle vom Dienst gelieferten Datensätze gespeichert wurden.",
-                file=sys.stderr,
-            )
-            report_number_gaps(data)
 
         return 0
 
