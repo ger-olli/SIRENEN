@@ -16,15 +16,28 @@ AUTH_ENV = "DUESSELDORF_AUTHKEY"
 LAYER = "feuerwehr37:fwr_sirenen"
 WMS_URL = "https://maps.duesseldorf.de/services/feuerwehr37/wms"
 
-# Die alte Vollabfrage lieferte stabil 95 Treffer. Sie bleibt deshalb die Basis.
+# Bewährte Vollabfrage: liefert stabil den Großteil der Sirenen.
 BASE_BBOX = (330000.0, 5660000.0, 370000.0, 5700000.0)
 BASE_BUFFER_PX = 100
 
-# Ergänzende Suche für Randlagen, insbesondere im Süden/Norden der Stadt.
+# Grober Ergänzungsscan für Randlagen.
 SEARCH_BBOX = (320000.0, 5650000.0, 380000.0, 5710000.0)
 GRID_SIZE = 4
 OVERLAP = 0.15
 TILE_BUFFER_PX = 90
+
+# S006/S008/S009 fehlen nach Basis + Grobscan.
+# S007, S101 und S102 liegen im Düsseldorfer Süden; deshalb wird dieser
+# Bereich zusätzlich mit kleinen, dicht gesetzten Abfragen abgetastet.
+TARGET_MISSING = {"S006", "S008", "S009"}
+FINE_MIN_X = 349000.0
+FINE_MAX_X = 357000.0
+FINE_MIN_Y = 5662000.0
+FINE_MAX_Y = 5674000.0
+FINE_STEP = 700.0
+FINE_VIEW_SPAN = 1800.0
+FINE_BUFFER_PX = 45
+
 WIDTH = 101
 HEIGHT = 101
 
@@ -80,7 +93,7 @@ def request_json(
         params=params,
         headers={
             "Accept": "application/json",
-            "User-Agent": "SIRENEN/5.0 (+https://github.com/ger-olli/SIRENEN)",
+            "User-Agent": "SIRENEN/6.0 (+https://github.com/ger-olli/SIRENEN)",
         },
         timeout=60,
     )
@@ -115,6 +128,19 @@ def make_tiles() -> list[tuple[float, float, float, float]]:
     return tiles
 
 
+def make_fine_bboxes() -> list[tuple[float, float, float, float]]:
+    half = FINE_VIEW_SPAN / 2.0
+    boxes: list[tuple[float, float, float, float]] = []
+    y = FINE_MIN_Y
+    while y <= FINE_MAX_Y:
+        x = FINE_MIN_X
+        while x <= FINE_MAX_X:
+            boxes.append((x - half, y - half, x + half, y + half))
+            x += FINE_STEP
+        y += FINE_STEP
+    return boxes
+
+
 def feature_key(feature: dict) -> str:
     props = feature.get("properties") or {}
     return str(
@@ -123,6 +149,13 @@ def feature_key(feature: dict) -> str:
         or feature.get("id")
         or json.dumps(feature, sort_keys=True, ensure_ascii=False)
     )
+
+
+def feature_numbers(collection: dict) -> set[str]:
+    return {
+        str((feature.get("properties") or {}).get("nummer", ""))
+        for feature in collection.get("features", [])
+    }
 
 
 def merge_features(*collections: dict) -> dict:
@@ -148,26 +181,67 @@ def merge_features(*collections: dict) -> dict:
 
 def fetch_all(authkey: str) -> dict:
     with requests.Session() as session:
-        print("1/2 Basisabfrage über ganz Düsseldorf …")
+        print("1/3 Basisabfrage über ganz Düsseldorf …")
         base = request_json(authkey, BASE_BBOX, BASE_BUFFER_PX, session)
         print(f"Basis-Treffer: {len(base.get('features', []))}")
 
         supplemental_features: list[dict] = []
         tiles = make_tiles()
-        print(f"2/2 Ergänzungsscan über {len(tiles)} überlappende Kacheln …")
+        print(f"2/3 Grober Ergänzungsscan über {len(tiles)} Kacheln …")
         for index, bbox in enumerate(tiles, start=1):
             data = request_json(authkey, bbox, TILE_BUFFER_PX, session)
-            features = data.get("features", [])
-            print(f"Kachel {index:02d}/{len(tiles)}: {len(features)} Treffer")
-            supplemental_features.extend(features)
+            supplemental_features.extend(data.get("features", []))
+            print(f"Kachel {index:02d}/{len(tiles)}: {len(data.get('features', []))} Treffer")
 
         supplemental = {"type": "FeatureCollection", "features": supplemental_features}
         merged = merge_features(base, supplemental)
 
+        still_missing = TARGET_MISSING - feature_numbers(merged)
+        if still_missing:
+            print(
+                "3/3 Feinscan im Düsseldorfer Süden für: "
+                + ", ".join(sorted(still_missing))
+            )
+            fine_features: list[dict] = []
+            fine_boxes = make_fine_bboxes()
+
+            for index, bbox in enumerate(fine_boxes, start=1):
+                data = request_json(authkey, bbox, FINE_BUFFER_PX, session)
+                fine_features.extend(data.get("features", []))
+
+                if index % 25 == 0 or data.get("features"):
+                    print(
+                        f"Feinscan {index:03d}/{len(fine_boxes)}: "
+                        f"{len(data.get('features', []))} Treffer"
+                    )
+
+                interim = merge_features(
+                    merged,
+                    {"type": "FeatureCollection", "features": fine_features},
+                )
+                still_missing = TARGET_MISSING - feature_numbers(interim)
+                if not still_missing:
+                    print("Alle Ziel-Sirenen S006, S008 und S009 gefunden; Feinscan beendet.")
+                    merged = interim
+                    break
+            else:
+                merged = merge_features(
+                    merged,
+                    {"type": "FeatureCollection", "features": fine_features},
+                )
+
+            found_targets = TARGET_MISSING & feature_numbers(merged)
+            print("Ziel-Sirenen gefunden: " + (", ".join(sorted(found_targets)) or "keine"))
+            remaining = TARGET_MISSING - feature_numbers(merged)
+            if remaining:
+                print("Weiterhin fehlend: " + ", ".join(sorted(remaining)))
+        else:
+            print("3/3 Feinscan nicht nötig; S006, S008 und S009 sind bereits vorhanden.")
+
         base_keys = {feature_key(f) for f in base.get("features", [])}
         merged_keys = {feature_key(f) for f in merged.get("features", [])}
         new_keys = sorted(merged_keys - base_keys)
-        print(f"Zusätzliche eindeutige Treffer durch Ergänzungsscan: {len(new_keys)}")
+        print(f"Zusätzliche eindeutige Treffer gegenüber Basis: {len(new_keys)}")
         if new_keys:
             print("Neu ergänzt: " + ", ".join(new_keys))
 
@@ -199,10 +273,7 @@ def save_csv(data: dict, path: Path) -> None:
 
 
 def report(data: dict) -> None:
-    numbers = [
-        str((feature.get("properties") or {}).get("nummer", ""))
-        for feature in data.get("features", [])
-    ]
+    numbers = feature_numbers(data)
     numeric = {n for n in numbers if n.startswith("S") and n[1:].isdigit()}
     if numeric:
         max_no = max(int(n[1:]) for n in numeric)
