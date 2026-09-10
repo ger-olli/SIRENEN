@@ -1,0 +1,4099 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.96cd28ef-f1fa-46d2-a580-c4f115e96e8c",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              340800,
+              5678000
+            ],
+            [
+              339800,
+              5677000
+            ],
+            [
+              338800,
+              5678000
+            ],
+            [
+              339800,
+              5679000
+            ],
+            [
+              340800,
+              5678000
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "96cd28ef-f1fa-46d2-a580-c4f115e96e8c",
+        "_dic_id": "fwrsir",
+        "nummer": "S001",
+        "beschallungsradius": "1000",
+        "adresse": "Heerdter Landstraße 186",
+        "plz": "40549",
+        "stadtteil": "Heerdt",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.ebb11104-8107-402a-bfde-a8cf13ac6af2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              342200,
+              5679700
+            ],
+            [
+              341300,
+              5678800
+            ],
+            [
+              340400,
+              5679700
+            ],
+            [
+              341300,
+              5680600
+            ],
+            [
+              342200,
+              5679700
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "ebb11104-8107-402a-bfde-a8cf13ac6af2",
+        "_dic_id": "fwrsir",
+        "nummer": "S002",
+        "beschallungsradius": "900",
+        "adresse": "Grevenbroicher Weg 70",
+        "plz": "40547",
+        "stadtteil": "Lörick",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.01dabe28-6a9f-4bfe-a5e1-7df92ee219b5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              344100,
+              5678300
+            ],
+            [
+              343100,
+              5677300
+            ],
+            [
+              342100,
+              5678300
+            ],
+            [
+              343100,
+              5679300
+            ],
+            [
+              344100,
+              5678300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "01dabe28-6a9f-4bfe-a5e1-7df92ee219b5",
+        "_dic_id": "fwrsir",
+        "nummer": "S003",
+        "beschallungsradius": "1000",
+        "adresse": "Comeniusstraße 1",
+        "plz": "40545",
+        "stadtteil": "Oberkassel",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.b6c2fb2b-3054-4e65-a0c2-2c641412b01b",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              342100,
+              5678000
+            ],
+            [
+              341300,
+              5677200
+            ],
+            [
+              340500,
+              5678000
+            ],
+            [
+              341300,
+              5678800
+            ],
+            [
+              342100,
+              5678000
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "b6c2fb2b-3054-4e65-a0c2-2c641412b01b",
+        "_dic_id": "fwrsir",
+        "nummer": "S004",
+        "beschallungsradius": "800",
+        "adresse": "Am Heerdter Krankenhaus 2",
+        "plz": "40549",
+        "stadtteil": "Heerdt",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.1adf8622-5b33-4c6e-a081-d6a8dd4c9492",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              342700,
+              5679400
+            ],
+            [
+              342100,
+              5678800
+            ],
+            [
+              341500,
+              5679400
+            ],
+            [
+              342100,
+              5680000
+            ],
+            [
+              342700,
+              5679400
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "1adf8622-5b33-4c6e-a081-d6a8dd4c9492",
+        "_dic_id": "fwrsir",
+        "nummer": "S005",
+        "beschallungsradius": "600",
+        "adresse": "Emanuel-Leutze-Straße 8",
+        "plz": "40547",
+        "stadtteil": "Lörick",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.8fc6916b-96a0-4e18-bd73-db2728b37000",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              343200,
+              5682900
+            ],
+            [
+              342200,
+              5681900
+            ],
+            [
+              341200,
+              5682900
+            ],
+            [
+              342200,
+              5683900
+            ],
+            [
+              343200,
+              5682900
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "8fc6916b-96a0-4e18-bd73-db2728b37000",
+        "_dic_id": "fwrsir",
+        "nummer": "S010",
+        "beschallungsradius": "1000",
+        "adresse": "Im Grund 78",
+        "plz": "40474",
+        "stadtteil": "Lohausen",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.7418814b-2d29-4a13-a235-f901ff21e452",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              341900,
+              5681600
+            ],
+            [
+              341300,
+              5681000
+            ],
+            [
+              340700,
+              5681600
+            ],
+            [
+              341300,
+              5682200
+            ],
+            [
+              341900,
+              5681600
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "7418814b-2d29-4a13-a235-f901ff21e452",
+        "_dic_id": "fwrsir",
+        "nummer": "S011",
+        "beschallungsradius": "600",
+        "adresse": "Am Staad 100",
+        "plz": "40474",
+        "stadtteil": "Stockum",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.7fb89d5b-3954-40ee-b0f3-05e97e2585c0",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              343400,
+              5681000
+            ],
+            [
+              342400,
+              5680000
+            ],
+            [
+              341400,
+              5681000
+            ],
+            [
+              342400,
+              5682000
+            ],
+            [
+              343400,
+              5681000
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "7fb89d5b-3954-40ee-b0f3-05e97e2585c0",
+        "_dic_id": "fwrsir",
+        "nummer": "S012",
+        "beschallungsradius": "1000",
+        "adresse": "Stockumer Kirchstraße 61",
+        "plz": "40474",
+        "stadtteil": "Stockum",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.906a36e9-df60-47cc-a8c6-f801a4c5169a",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345400,
+              5682000
+            ],
+            [
+              344400,
+              5681000
+            ],
+            [
+              343400,
+              5682000
+            ],
+            [
+              344400,
+              5683000
+            ],
+            [
+              345400,
+              5682000
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "906a36e9-df60-47cc-a8c6-f801a4c5169a",
+        "_dic_id": "fwrsir",
+        "nummer": "S013",
+        "beschallungsradius": "1000",
+        "adresse": "An der Golzheimer Heide 120",
+        "plz": "40468",
+        "stadtteil": "Unterrath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.984e4558-202c-483a-ad17-8a402b5bfc64",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              344700,
+              5680300
+            ],
+            [
+              343900,
+              5679500
+            ],
+            [
+              343100,
+              5680300
+            ],
+            [
+              343900,
+              5681100
+            ],
+            [
+              344700,
+              5680300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "984e4558-202c-483a-ad17-8a402b5bfc64",
+        "_dic_id": "fwrsir",
+        "nummer": "S014",
+        "beschallungsradius": "800",
+        "adresse": "Tersteegenstraße 28",
+        "plz": "40474",
+        "stadtteil": "Golzheim",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.0f1b2b9f-a0da-45ce-8c02-f9599048db07",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              346600,
+              5680500
+            ],
+            [
+              345600,
+              5679500
+            ],
+            [
+              344600,
+              5680500
+            ],
+            [
+              345600,
+              5681500
+            ],
+            [
+              346600,
+              5680500
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "0f1b2b9f-a0da-45ce-8c02-f9599048db07",
+        "_dic_id": "fwrsir",
+        "nummer": "S015",
+        "beschallungsradius": "1000",
+        "adresse": "Rather Straße 51",
+        "plz": "40476",
+        "stadtteil": "Derendorf",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.f92d3ca1-4ddd-4dea-b278-4d26ed62567d",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348200,
+              5679300
+            ],
+            [
+              347200,
+              5678300
+            ],
+            [
+              346200,
+              5679300
+            ],
+            [
+              347200,
+              5680300
+            ],
+            [
+              348200,
+              5679300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "f92d3ca1-4ddd-4dea-b278-4d26ed62567d",
+        "_dic_id": "fwrsir",
+        "nummer": "S016",
+        "beschallungsradius": "1000",
+        "adresse": "Heinrichstraße 24",
+        "plz": "40239",
+        "stadtteil": "Düsseltal",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.33266828-f26a-497f-b9d5-d5552f495f27",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345400,
+              5678800
+            ],
+            [
+              344500,
+              5677900
+            ],
+            [
+              343600,
+              5678800
+            ],
+            [
+              344500,
+              5679700
+            ],
+            [
+              345400,
+              5678800
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "33266828-f26a-497f-b9d5-d5552f495f27",
+        "_dic_id": "fwrsir",
+        "nummer": "S017",
+        "beschallungsradius": "900",
+        "adresse": "Cecilienallee 3",
+        "plz": "40474",
+        "stadtteil": "Pempelfort",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.8988166d-44af-44f6-b618-cfc968fd6de9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              346600,
+              5678300
+            ],
+            [
+              345800,
+              5677500
+            ],
+            [
+              345000,
+              5678300
+            ],
+            [
+              345800,
+              5679100
+            ],
+            [
+              346600,
+              5678300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "8988166d-44af-44f6-b618-cfc968fd6de9",
+        "_dic_id": "fwrsir",
+        "nummer": "S018",
+        "beschallungsradius": "800",
+        "adresse": "Franklinstraße 41 - 43",
+        "plz": "40479",
+        "stadtteil": "Pempelfort",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.2403ab9d-c588-4dbd-9f1b-0959cec4e353",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345600,
+              5677300
+            ],
+            [
+              344800,
+              5676500
+            ],
+            [
+              344000,
+              5677300
+            ],
+            [
+              344800,
+              5678100
+            ],
+            [
+              345600,
+              5677300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "2403ab9d-c588-4dbd-9f1b-0959cec4e353",
+        "_dic_id": "fwrsir",
+        "nummer": "S019",
+        "beschallungsradius": "800",
+        "adresse": "Königsallee 1 - 9 (1)",
+        "plz": "40213",
+        "stadtteil": "Stadtmitte",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.2def8a75-4be2-4815-9324-92787dede1e9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              346700,
+              5676900
+            ],
+            [
+              345900,
+              5676100
+            ],
+            [
+              345100,
+              5676900
+            ],
+            [
+              345900,
+              5677700
+            ],
+            [
+              346700,
+              5676900
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "2def8a75-4be2-4815-9324-92787dede1e9",
+        "_dic_id": "fwrsir",
+        "nummer": "S020",
+        "beschallungsradius": "800",
+        "adresse": "Konrad-Adenauer-Platz 1 (1-1a)",
+        "plz": "40210",
+        "stadtteil": "Stadtmitte",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.a583b449-0a56-4048-ac2a-9c88421acba2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348200,
+              5677500
+            ],
+            [
+              347400,
+              5676700
+            ],
+            [
+              346600,
+              5677500
+            ],
+            [
+              347400,
+              5678300
+            ],
+            [
+              348200,
+              5677500
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "a583b449-0a56-4048-ac2a-9c88421acba2",
+        "_dic_id": "fwrsir",
+        "nummer": "S021",
+        "beschallungsradius": "800",
+        "adresse": "Hoffeldstraße 69",
+        "plz": "40235",
+        "stadtteil": "Flingern Nord",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.bb04b738-de11-4b67-bd60-d89b95598617",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              342900,
+              5675900
+            ],
+            [
+              341900,
+              5674900
+            ],
+            [
+              340900,
+              5675900
+            ],
+            [
+              341900,
+              5676900
+            ],
+            [
+              342900,
+              5675900
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "bb04b738-de11-4b67-bd60-d89b95598617",
+        "_dic_id": "fwrsir",
+        "nummer": "S022",
+        "beschallungsradius": "1000",
+        "adresse": "Hamburger Straße 5",
+        "plz": "40221",
+        "stadtteil": "Hafen",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.f1d81816-dec5-4a94-bf09-d2e4e5389d1b",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              343800,
+              5676300
+            ],
+            [
+              343000,
+              5675500
+            ],
+            [
+              342200,
+              5676300
+            ],
+            [
+              343000,
+              5677100
+            ],
+            [
+              343800,
+              5676300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "f1d81816-dec5-4a94-bf09-d2e4e5389d1b",
+        "_dic_id": "fwrsir",
+        "nummer": "S023",
+        "beschallungsradius": "800",
+        "adresse": "Speditionstraße 17",
+        "plz": "40221",
+        "stadtteil": "Hafen",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.72e23709-76ce-480d-afba-4bbbe89a73ef",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345200,
+              5676200
+            ],
+            [
+              344400,
+              5675400
+            ],
+            [
+              343600,
+              5676200
+            ],
+            [
+              344400,
+              5677000
+            ],
+            [
+              345200,
+              5676200
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "72e23709-76ce-480d-afba-4bbbe89a73ef",
+        "_dic_id": "fwrsir",
+        "nummer": "S024",
+        "beschallungsradius": "800",
+        "adresse": "Kronprinzenstraße 2",
+        "plz": "40217",
+        "stadtteil": "Unterbilk",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.ad0a3c7a-82a7-41d2-825e-e83c15298ac9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              344300,
+              5675200
+            ],
+            [
+              343500,
+              5674400
+            ],
+            [
+              342700,
+              5675200
+            ],
+            [
+              343500,
+              5676000
+            ],
+            [
+              344300,
+              5675200
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "ad0a3c7a-82a7-41d2-825e-e83c15298ac9",
+        "_dic_id": "fwrsir",
+        "nummer": "S025",
+        "beschallungsradius": "800",
+        "adresse": "Georg-Schulhoff-Platz 1",
+        "plz": "40221",
+        "stadtteil": "Bilk",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.cbcbcea6-ecc4-4aa3-9162-2e4a11bee365",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345100,
+              5673700
+            ],
+            [
+              344100,
+              5672700
+            ],
+            [
+              343100,
+              5673700
+            ],
+            [
+              344100,
+              5674700
+            ],
+            [
+              345100,
+              5673700
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "cbcbcea6-ecc4-4aa3-9162-2e4a11bee365",
+        "_dic_id": "fwrsir",
+        "nummer": "S026",
+        "beschallungsradius": "1000",
+        "adresse": "Fleher Straße 213",
+        "plz": "40223",
+        "stadtteil": "Flehe",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.ecbd9259-a2d3-4cf6-a4e8-8983b410ba35",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              343100,
+              5673300
+            ],
+            [
+              342100,
+              5672300
+            ],
+            [
+              341100,
+              5673300
+            ],
+            [
+              342100,
+              5674300
+            ],
+            [
+              343100,
+              5673300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "ecbd9259-a2d3-4cf6-a4e8-8983b410ba35",
+        "_dic_id": "fwrsir",
+        "nummer": "S027",
+        "beschallungsradius": "1000",
+        "adresse": "Auf dem Draap 25",
+        "plz": "40221",
+        "stadtteil": "Hamm",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.a1d764c5-57fb-4cf6-921e-bbb732d940b9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              346100,
+              5674800
+            ],
+            [
+              345300,
+              5674000
+            ],
+            [
+              344500,
+              5674800
+            ],
+            [
+              345300,
+              5675600
+            ],
+            [
+              346100,
+              5674800
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "a1d764c5-57fb-4cf6-921e-bbb732d940b9",
+        "_dic_id": "fwrsir",
+        "nummer": "S028",
+        "beschallungsradius": "800",
+        "adresse": "Auf´m Hennekamp 45",
+        "plz": "40225",
+        "stadtteil": "Bilk",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.22acabd3-7e2b-4cab-af34-29c89850e0a2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              346800,
+              5673000
+            ],
+            [
+              345800,
+              5672000
+            ],
+            [
+              344800,
+              5673000
+            ],
+            [
+              345800,
+              5674000
+            ],
+            [
+              346800,
+              5673000
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "22acabd3-7e2b-4cab-af34-29c89850e0a2",
+        "_dic_id": "fwrsir",
+        "nummer": "S029",
+        "beschallungsradius": "1000",
+        "adresse": "Universitätsstraße 48",
+        "plz": "40225",
+        "stadtteil": "Bilk",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.d2879ed9-60fd-448b-9d1c-dd13e69482c2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348500,
+              5671100
+            ],
+            [
+              347700,
+              5670300
+            ],
+            [
+              346900,
+              5671100
+            ],
+            [
+              347700,
+              5671900
+            ],
+            [
+              348500,
+              5671100
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "d2879ed9-60fd-448b-9d1c-dd13e69482c2",
+        "_dic_id": "fwrsir",
+        "nummer": "S030",
+        "beschallungsradius": "800",
+        "adresse": "Itterstraße 116",
+        "plz": "40589",
+        "stadtteil": "Holthausen",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.0fdc822a-43f1-4c57-b467-a2d64797751d",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347800,
+              5672000
+            ],
+            [
+              346800,
+              5671000
+            ],
+            [
+              345800,
+              5672000
+            ],
+            [
+              346800,
+              5673000
+            ],
+            [
+              347800,
+              5672000
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "0fdc822a-43f1-4c57-b467-a2d64797751d",
+        "_dic_id": "fwrsir",
+        "nummer": "S031",
+        "beschallungsradius": "1000",
+        "adresse": "Otto-Hahn-Straße 42",
+        "plz": "40591",
+        "stadtteil": "Wersten",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.573dee72-2073-4592-8130-594a95e992fb",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348400,
+              5673100
+            ],
+            [
+              347500,
+              5672200
+            ],
+            [
+              346600,
+              5673100
+            ],
+            [
+              347500,
+              5674000
+            ],
+            [
+              348400,
+              5673100
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "573dee72-2073-4592-8130-594a95e992fb",
+        "_dic_id": "fwrsir",
+        "nummer": "S032",
+        "beschallungsradius": "900",
+        "adresse": "Kölner Landstraße 169",
+        "plz": "40591",
+        "stadtteil": "Wersten",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.d1e9f387-c06f-4f02-b902-577e513f8f90",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348000,
+              5674300
+            ],
+            [
+              347000,
+              5673300
+            ],
+            [
+              346000,
+              5674300
+            ],
+            [
+              347000,
+              5675300
+            ],
+            [
+              348000,
+              5674300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "d1e9f387-c06f-4f02-b902-577e513f8f90",
+        "_dic_id": "fwrsir",
+        "nummer": "S033",
+        "beschallungsradius": "1000",
+        "adresse": "Siegburger Straße 139 (137)",
+        "plz": "40591",
+        "stadtteil": "Oberbilk",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.1e203efb-5bbf-4243-92af-4ad4c742f0e8",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347900,
+              5676800
+            ],
+            [
+              347100,
+              5676000
+            ],
+            [
+              346300,
+              5676800
+            ],
+            [
+              347100,
+              5677600
+            ],
+            [
+              347900,
+              5676800
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "1e203efb-5bbf-4243-92af-4ad4c742f0e8",
+        "_dic_id": "fwrsir",
+        "nummer": "S034",
+        "beschallungsradius": "800",
+        "adresse": "Höherweg 43 (41-43)",
+        "plz": "40233",
+        "stadtteil": "Flingern Süd",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.50fbbb09-7ea2-4df4-92b5-dbf5d0ab1647",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347700,
+              5675500
+            ],
+            [
+              346900,
+              5674700
+            ],
+            [
+              346100,
+              5675500
+            ],
+            [
+              346900,
+              5676300
+            ],
+            [
+              347700,
+              5675500
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "50fbbb09-7ea2-4df4-92b5-dbf5d0ab1647",
+        "_dic_id": "fwrsir",
+        "nummer": "S035",
+        "beschallungsradius": "800",
+        "adresse": "Stoffeler Straße 11",
+        "plz": "40227",
+        "stadtteil": "Oberbilk",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.ea000af5-3981-4c8e-a9ff-7357f3edd196",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              350000,
+              5670500
+            ],
+            [
+              349200,
+              5669700
+            ],
+            [
+              348400,
+              5670500
+            ],
+            [
+              349200,
+              5671300
+            ],
+            [
+              350000,
+              5670500
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "ea000af5-3981-4c8e-a9ff-7357f3edd196",
+        "_dic_id": "fwrsir",
+        "nummer": "S036",
+        "beschallungsradius": "800",
+        "adresse": "Am Trippelsberg 48",
+        "plz": "40589",
+        "stadtteil": "Holthausen",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.4e3293f5-aa72-4ee6-aac0-eac7c698e252",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              351500,
+              5670200
+            ],
+            [
+              350700,
+              5669400
+            ],
+            [
+              349900,
+              5670200
+            ],
+            [
+              350700,
+              5671000
+            ],
+            [
+              351500,
+              5670200
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "4e3293f5-aa72-4ee6-aac0-eac7c698e252",
+        "_dic_id": "fwrsir",
+        "nummer": "S037",
+        "beschallungsradius": "800",
+        "adresse": "Benrodestraße 46",
+        "plz": "40597",
+        "stadtteil": "Benrath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.024c3084-0aa1-431e-9554-e11897b5e8e7",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              352700,
+              5671400
+            ],
+            [
+              351700,
+              5670400
+            ],
+            [
+              350700,
+              5671400
+            ],
+            [
+              351700,
+              5672400
+            ],
+            [
+              352700,
+              5671400
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "024c3084-0aa1-431e-9554-e11897b5e8e7",
+        "_dic_id": "fwrsir",
+        "nummer": "S038",
+        "beschallungsradius": "1000",
+        "adresse": "Lärchenweg 12",
+        "plz": "40599",
+        "stadtteil": "Hassels",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.f94335f1-659c-4467-916d-a7cbbc7a67fb",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              353400,
+              5669900
+            ],
+            [
+              352400,
+              5668900
+            ],
+            [
+              351400,
+              5669900
+            ],
+            [
+              352400,
+              5670900
+            ],
+            [
+              353400,
+              5669900
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "f94335f1-659c-4467-916d-a7cbbc7a67fb",
+        "_dic_id": "fwrsir",
+        "nummer": "S039",
+        "beschallungsradius": "1000",
+        "adresse": "Schimmelpfennigstraße 1",
+        "plz": "40597",
+        "stadtteil": "Benrath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.621db6f4-a919-4918-b05a-254d5265eccc",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              343200,
+              5688600
+            ],
+            [
+              342400,
+              5687800
+            ],
+            [
+              341600,
+              5688600
+            ],
+            [
+              342400,
+              5689400
+            ],
+            [
+              343200,
+              5688600
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "621db6f4-a919-4918-b05a-254d5265eccc",
+        "_dic_id": "fwrsir",
+        "nummer": "S040",
+        "beschallungsradius": "800",
+        "adresse": "Grenzweg 12",
+        "plz": "40489",
+        "stadtteil": "Wittlaer",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.cbff2c2e-32e3-41ca-8223-1a013caa137c",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345700,
+              5675800
+            ],
+            [
+              345200,
+              5675300
+            ],
+            [
+              344700,
+              5675800
+            ],
+            [
+              345200,
+              5676300
+            ],
+            [
+              345700,
+              5675800
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "cbff2c2e-32e3-41ca-8223-1a013caa137c",
+        "_dic_id": "fwrsir",
+        "nummer": "S041",
+        "beschallungsradius": "500",
+        "adresse": "Corneliusstraße 86",
+        "plz": "40215",
+        "stadtteil": "Friedrichstadt",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.15eb3cf4-e878-4e6e-b54b-66a206eae1b2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              349500,
+              5672100
+            ],
+            [
+              348500,
+              5671100
+            ],
+            [
+              347500,
+              5672100
+            ],
+            [
+              348500,
+              5673100
+            ],
+            [
+              349500,
+              5672100
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "15eb3cf4-e878-4e6e-b54b-66a206eae1b2",
+        "_dic_id": "fwrsir",
+        "nummer": "S042",
+        "beschallungsradius": "1000",
+        "adresse": "Hügelstraße 52 (-62)",
+        "plz": "40591",
+        "stadtteil": "Wersten",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.a2d2030f-f841-47c0-a9e2-1413d91e1305",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              351400,
+              5672400
+            ],
+            [
+              350400,
+              5671400
+            ],
+            [
+              349400,
+              5672400
+            ],
+            [
+              350400,
+              5673400
+            ],
+            [
+              351400,
+              5672400
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "a2d2030f-f841-47c0-a9e2-1413d91e1305",
+        "_dic_id": "fwrsir",
+        "nummer": "S043",
+        "beschallungsradius": "1000",
+        "adresse": "Potsdamer Straße 16",
+        "plz": "40599",
+        "stadtteil": "Hassels",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.adf56e04-80e9-4520-a703-14bc379b7889",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              349600,
+              5673400
+            ],
+            [
+              348800,
+              5672600
+            ],
+            [
+              348000,
+              5673400
+            ],
+            [
+              348800,
+              5674200
+            ],
+            [
+              349600,
+              5673400
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "adf56e04-80e9-4520-a703-14bc379b7889",
+        "_dic_id": "fwrsir",
+        "nummer": "S044",
+        "beschallungsradius": "800",
+        "adresse": "Fuldaer Straße 33",
+        "plz": "40229",
+        "stadtteil": "Eller",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.f1a6b39c-4668-4fed-a149-63f49036cfa6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              350600,
+              5674000
+            ],
+            [
+              349800,
+              5673200
+            ],
+            [
+              349000,
+              5674000
+            ],
+            [
+              349800,
+              5674800
+            ],
+            [
+              350600,
+              5674000
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "f1a6b39c-4668-4fed-a149-63f49036cfa6",
+        "_dic_id": "fwrsir",
+        "nummer": "S045",
+        "beschallungsradius": "800",
+        "adresse": "Heidelberger Straße 75",
+        "plz": "40229",
+        "stadtteil": "Eller",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.e591d65d-f4b0-4416-87ae-441de322ea11",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              351000,
+              5675100
+            ],
+            [
+              350200,
+              5674300
+            ],
+            [
+              349400,
+              5675100
+            ],
+            [
+              350200,
+              5675900
+            ],
+            [
+              351000,
+              5675100
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "e591d65d-f4b0-4416-87ae-441de322ea11",
+        "_dic_id": "fwrsir",
+        "nummer": "S046",
+        "beschallungsradius": "800",
+        "adresse": "Zwickauer Straße 25",
+        "plz": "40627",
+        "stadtteil": "Vennhausen",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.a560cfd9-34f1-4e73-b768-09560e12298e",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              349600,
+              5674600
+            ],
+            [
+              348800,
+              5673800
+            ],
+            [
+              348000,
+              5674600
+            ],
+            [
+              348800,
+              5675400
+            ],
+            [
+              349600,
+              5674600
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "a560cfd9-34f1-4e73-b768-09560e12298e",
+        "_dic_id": "fwrsir",
+        "nummer": "S047",
+        "beschallungsradius": "800",
+        "adresse": "Ellerbittweg 11 (9-11)",
+        "plz": "40229",
+        "stadtteil": "Eller",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.1ca1ea13-0e38-4a25-b3a1-e75c68cd5d0f",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              349900,
+              5675900
+            ],
+            [
+              349100,
+              5675100
+            ],
+            [
+              348300,
+              5675900
+            ],
+            [
+              349100,
+              5676700
+            ],
+            [
+              349900,
+              5675900
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "1ca1ea13-0e38-4a25-b3a1-e75c68cd5d0f",
+        "_dic_id": "fwrsir",
+        "nummer": "S048",
+        "beschallungsradius": "800",
+        "adresse": "Posener Straße 129",
+        "plz": "40231",
+        "stadtteil": "Eller",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.5fa44773-d553-4251-86d2-d0f176477bca",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              349300,
+              5676200
+            ],
+            [
+              348500,
+              5675400
+            ],
+            [
+              347700,
+              5676200
+            ],
+            [
+              348500,
+              5677000
+            ],
+            [
+              349300,
+              5676200
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "5fa44773-d553-4251-86d2-d0f176477bca",
+        "_dic_id": "fwrsir",
+        "nummer": "S049",
+        "beschallungsradius": "800",
+        "adresse": "Königsberger Straße 100",
+        "plz": "40231",
+        "stadtteil": "Lierenfeld",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.2ccb887f-9e32-4d71-879d-4e81f3798071",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              350400,
+              5677500
+            ],
+            [
+              349500,
+              5676600
+            ],
+            [
+              348600,
+              5677500
+            ],
+            [
+              349500,
+              5678400
+            ],
+            [
+              350400,
+              5677500
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "2ccb887f-9e32-4d71-879d-4e81f3798071",
+        "_dic_id": "fwrsir",
+        "nummer": "S050",
+        "beschallungsradius": "900",
+        "adresse": "Lohbachweg 33 (31-35)",
+        "plz": "40625",
+        "stadtteil": "Gerresheim",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.22358801-094a-4398-9a6c-66a22bc962cf",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              351600,
+              5677300
+            ],
+            [
+              350700,
+              5676400
+            ],
+            [
+              349800,
+              5677300
+            ],
+            [
+              350700,
+              5678200
+            ],
+            [
+              351600,
+              5677300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "22358801-094a-4398-9a6c-66a22bc962cf",
+        "_dic_id": "fwrsir",
+        "nummer": "S051",
+        "beschallungsradius": "900",
+        "adresse": "Heyestraße 91",
+        "plz": "40625",
+        "stadtteil": "Gerresheim",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.79c0b6b2-3e59-4200-9692-f669ba5d9879",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              350800,
+              5676100
+            ],
+            [
+              350000,
+              5675200
+            ],
+            [
+              349100,
+              5676100
+            ],
+            [
+              350000,
+              5676900
+            ],
+            [
+              350800,
+              5676100
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "79c0b6b2-3e59-4200-9692-f669ba5d9879",
+        "_dic_id": "fwrsir",
+        "nummer": "S052",
+        "beschallungsradius": "850",
+        "adresse": "Arnstadter Weg 6 - 16 (Erfurter Weg 45)",
+        "plz": "40627",
+        "stadtteil": "Vennhausen",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.7def5c3a-f25f-4522-b2bd-4797dc38567d",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              353900,
+              5674700
+            ],
+            [
+              353100,
+              5673900
+            ],
+            [
+              352300,
+              5674700
+            ],
+            [
+              353100,
+              5675500
+            ],
+            [
+              353900,
+              5674700
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "7def5c3a-f25f-4522-b2bd-4797dc38567d",
+        "_dic_id": "fwrsir",
+        "nummer": "S053",
+        "beschallungsradius": "800",
+        "adresse": "Am Pfaffenbusch / Gerresheimer Landstraße",
+        "plz": "40627",
+        "stadtteil": "Unterbach",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.be97549d-44f1-4371-977f-e2b327f27d8a",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              351300,
+              5678800
+            ],
+            [
+              350500,
+              5678000
+            ],
+            [
+              349700,
+              5678800
+            ],
+            [
+              350500,
+              5679600
+            ],
+            [
+              351300,
+              5678800
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "be97549d-44f1-4371-977f-e2b327f27d8a",
+        "_dic_id": "fwrsir",
+        "nummer": "S054",
+        "beschallungsradius": "800",
+        "adresse": "Am Poth 60",
+        "plz": "40625",
+        "stadtteil": "Gerresheim",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.1b6cfa1a-d617-4594-8a34-541dfda672f4",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348900,
+              5678900
+            ],
+            [
+              348100,
+              5678100
+            ],
+            [
+              347300,
+              5678900
+            ],
+            [
+              348100,
+              5679700
+            ],
+            [
+              348900,
+              5678900
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "1b6cfa1a-d617-4594-8a34-541dfda672f4",
+        "_dic_id": "fwrsir",
+        "nummer": "S055",
+        "beschallungsradius": "800",
+        "adresse": "Grafenberger Allee 384",
+        "plz": "40235",
+        "stadtteil": "Grafenberg",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.0ae2d054-2949-482c-8f36-a0fb33840453",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              350000,
+              5678400
+            ],
+            [
+              349100,
+              5677500
+            ],
+            [
+              348200,
+              5678400
+            ],
+            [
+              349100,
+              5679300
+            ],
+            [
+              350000,
+              5678400
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "0ae2d054-2949-482c-8f36-a0fb33840453",
+        "_dic_id": "fwrsir",
+        "nummer": "S056",
+        "beschallungsradius": "900",
+        "adresse": "Pöhlenweg 81",
+        "plz": "40629",
+        "stadtteil": "Grafenberg",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.a2fbcb36-f059-4298-abaf-c2e5525f5bc2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              352000,
+              5680400
+            ],
+            [
+              351000,
+              5679400
+            ],
+            [
+              350000,
+              5680400
+            ],
+            [
+              351000,
+              5681400
+            ],
+            [
+              352000,
+              5680400
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "a2fbcb36-f059-4298-abaf-c2e5525f5bc2",
+        "_dic_id": "fwrsir",
+        "nummer": "S057",
+        "beschallungsradius": "1000",
+        "adresse": "Blanckertzstraße 26 (24-26)",
+        "plz": "40629",
+        "stadtteil": "Ludenberg",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.6f3d065c-aab8-46d1-88fa-c81b424e0df6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347900,
+              5681300
+            ],
+            [
+              347100,
+              5680500
+            ],
+            [
+              346300,
+              5681300
+            ],
+            [
+              347100,
+              5682100
+            ],
+            [
+              347900,
+              5681300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "6f3d065c-aab8-46d1-88fa-c81b424e0df6",
+        "_dic_id": "fwrsir",
+        "nummer": "S058",
+        "beschallungsradius": "800",
+        "adresse": "Rather Kreuzweg 21 (21-29)",
+        "plz": "40472",
+        "stadtteil": "Rath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.9d72bd5e-e763-4b81-bf45-0b5b7fcb8d91",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347000,
+              5681700
+            ],
+            [
+              346200,
+              5680900
+            ],
+            [
+              345400,
+              5681700
+            ],
+            [
+              346200,
+              5682500
+            ],
+            [
+              347000,
+              5681700
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "9d72bd5e-e763-4b81-bf45-0b5b7fcb8d91",
+        "_dic_id": "fwrsir",
+        "nummer": "S059",
+        "beschallungsradius": "800",
+        "adresse": "Herdecker Straße 1",
+        "plz": "40472",
+        "stadtteil": "Rath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.5ff1a437-ca5a-46cb-adb8-a47f4d78e1b5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347200,
+              5683800
+            ],
+            [
+              346400,
+              5683000
+            ],
+            [
+              345600,
+              5683800
+            ],
+            [
+              346400,
+              5684600
+            ],
+            [
+              347200,
+              5683800
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "5ff1a437-ca5a-46cb-adb8-a47f4d78e1b5",
+        "_dic_id": "fwrsir",
+        "nummer": "S060",
+        "beschallungsradius": "800",
+        "adresse": "Krahnenburgstraße 15",
+        "plz": "40472",
+        "stadtteil": "Lichtenbroich",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.52713c49-6298-4963-8fcd-82d38113b551",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              343000,
+              5684800
+            ],
+            [
+              342000,
+              5683800
+            ],
+            [
+              341000,
+              5684800
+            ],
+            [
+              342000,
+              5685800
+            ],
+            [
+              343000,
+              5684800
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "52713c49-6298-4963-8fcd-82d38113b551",
+        "_dic_id": "fwrsir",
+        "nummer": "S061",
+        "beschallungsradius": "1000",
+        "adresse": "Niederrheinstraße 336",
+        "plz": "40489",
+        "stadtteil": "Kaiserswerth",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.bf20e66e-4b3a-48b3-b83f-281ec2032c9d",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              344600,
+              5686900
+            ],
+            [
+              343600,
+              5685900
+            ],
+            [
+              342600,
+              5686900
+            ],
+            [
+              343600,
+              5687900
+            ],
+            [
+              344600,
+              5686900
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "bf20e66e-4b3a-48b3-b83f-281ec2032c9d",
+        "_dic_id": "fwrsir",
+        "nummer": "S062",
+        "beschallungsradius": "1000",
+        "adresse": "Einbrunger Straße 82",
+        "plz": "40489",
+        "stadtteil": "Wittlaer",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.854cceb1-f4f2-4457-8695-ee8ccb56baf1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              351300,
+              5671300
+            ],
+            [
+              350400,
+              5670400
+            ],
+            [
+              349500,
+              5671300
+            ],
+            [
+              350400,
+              5672200
+            ],
+            [
+              351300,
+              5671300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "854cceb1-f4f2-4457-8695-ee8ccb56baf1",
+        "_dic_id": "fwrsir",
+        "nummer": "S063",
+        "beschallungsradius": "900",
+        "adresse": "Kappelerstraße",
+        "plz": "40599",
+        "stadtteil": "Reisholz",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.dc4d4626-bc9a-4cff-a16e-929ac0f9ea30",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348200,
+              5682500
+            ],
+            [
+              347400,
+              5681700
+            ],
+            [
+              346600,
+              5682500
+            ],
+            [
+              347400,
+              5683300
+            ],
+            [
+              348200,
+              5682500
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "dc4d4626-bc9a-4cff-a16e-929ac0f9ea30",
+        "_dic_id": "fwrsir",
+        "nummer": "S064",
+        "beschallungsradius": "800",
+        "adresse": "Theodorstraße 180",
+        "plz": "40472",
+        "stadtteil": "Rath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.3e569bc6-34ac-4d66-a228-ed39cc11317d",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              352600,
+              5681700
+            ],
+            [
+              351700,
+              5680800
+            ],
+            [
+              350800,
+              5681700
+            ],
+            [
+              351700,
+              5682600
+            ],
+            [
+              352600,
+              5681700
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "3e569bc6-34ac-4d66-a228-ed39cc11317d",
+        "_dic_id": "fwrsir",
+        "nummer": "S065",
+        "beschallungsradius": "900",
+        "adresse": "Am Feldhof 13",
+        "plz": "40629",
+        "stadtteil": "Knittkuhl",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.92cd6c11-e6a2-459b-b9eb-911e27877294",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347600,
+              5678100
+            ],
+            [
+              346900,
+              5677400
+            ],
+            [
+              346200,
+              5678100
+            ],
+            [
+              346900,
+              5678800
+            ],
+            [
+              347600,
+              5678100
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "92cd6c11-e6a2-459b-b9eb-911e27877294",
+        "_dic_id": "fwrsir",
+        "nummer": "S066",
+        "beschallungsradius": "700",
+        "adresse": "Lindemannstraße 57",
+        "plz": "40237",
+        "stadtteil": "Düsseltal",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.6f848d4f-1b40-402a-bd0a-cfde33f11947",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              346100,
+              5679300
+            ],
+            [
+              345400,
+              5678600
+            ],
+            [
+              344700,
+              5679300
+            ],
+            [
+              345400,
+              5680000
+            ],
+            [
+              346100,
+              5679300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "6f848d4f-1b40-402a-bd0a-cfde33f11947",
+        "_dic_id": "fwrsir",
+        "nummer": "S067",
+        "beschallungsradius": "700",
+        "adresse": "Essener Straße 1",
+        "plz": "40476",
+        "stadtteil": "Derendorf",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.dbd7fbae-7363-4d13-9894-f4038017fdae",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              346300,
+              5683100
+            ],
+            [
+              345600,
+              5682400
+            ],
+            [
+              344900,
+              5683100
+            ],
+            [
+              345600,
+              5683800
+            ],
+            [
+              346300,
+              5683100
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "dbd7fbae-7363-4d13-9894-f4038017fdae",
+        "_dic_id": "fwrsir",
+        "nummer": "S068",
+        "beschallungsradius": "700",
+        "adresse": "Parsevalstraße 9b (7-9c)",
+        "plz": "40468",
+        "stadtteil": "Unterrath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.4edea600-4e33-4bb4-bdc9-7b22f453a80e",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345000,
+              5682700
+            ],
+            [
+              344200,
+              5681900
+            ],
+            [
+              343400,
+              5682700
+            ],
+            [
+              344200,
+              5683500
+            ],
+            [
+              345000,
+              5682700
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "4edea600-4e33-4bb4-bdc9-7b22f453a80e",
+        "_dic_id": "fwrsir",
+        "nummer": "S069",
+        "beschallungsradius": "800",
+        "adresse": "Flughafenstraße 105",
+        "plz": "40474",
+        "stadtteil": "Unterrath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.6b15e7c6-91e1-49b6-8a90-62e8272efb23",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              346800,
+              5689000
+            ],
+            [
+              345800,
+              5688000
+            ],
+            [
+              344800,
+              5689000
+            ],
+            [
+              345800,
+              5690000
+            ],
+            [
+              346800,
+              5689000
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "6b15e7c6-91e1-49b6-8a90-62e8272efb23",
+        "_dic_id": "fwrsir",
+        "nummer": "S070",
+        "beschallungsradius": "1000",
+        "adresse": "Bahnhofstraße 1",
+        "plz": "40489",
+        "stadtteil": "Angermund",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.e1da68bd-1d55-4f45-b2a6-221540f08a5f",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347100,
+              5688900
+            ],
+            [
+              346400,
+              5688200
+            ],
+            [
+              345700,
+              5688900
+            ],
+            [
+              346400,
+              5689600
+            ],
+            [
+              347100,
+              5688900
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "e1da68bd-1d55-4f45-b2a6-221540f08a5f",
+        "_dic_id": "fwrsir",
+        "nummer": "S071",
+        "beschallungsradius": "700",
+        "adresse": "Freiheitshagen 33",
+        "plz": "40489",
+        "stadtteil": "Angermund",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.ef8a76a0-2a3b-4168-b9fb-e1aa6a587e5a",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345800,
+              5688100
+            ],
+            [
+              345400,
+              5687700
+            ],
+            [
+              345000,
+              5688100
+            ],
+            [
+              345400,
+              5688500
+            ],
+            [
+              345800,
+              5688100
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "ef8a76a0-2a3b-4168-b9fb-e1aa6a587e5a",
+        "_dic_id": "fwrsir",
+        "nummer": "S072",
+        "beschallungsradius": "400",
+        "adresse": "Wacholderstraße 30a",
+        "plz": "40489",
+        "stadtteil": "Angermund",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.31c90bcf-20f3-44c2-99b8-9496dd6766e9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              342900,
+              5689800
+            ],
+            [
+              341900,
+              5688800
+            ],
+            [
+              340900,
+              5689800
+            ],
+            [
+              341900,
+              5690800
+            ],
+            [
+              342900,
+              5689800
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "31c90bcf-20f3-44c2-99b8-9496dd6766e9",
+        "_dic_id": "fwrsir",
+        "nummer": "S073",
+        "beschallungsradius": "1000",
+        "adresse": "Wasserwerksweg 60",
+        "plz": "40489",
+        "stadtteil": "Wittlaer",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.e44e102d-abae-43d6-a1e5-47058dba5da5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              343600,
+              5687700
+            ],
+            [
+              342700,
+              5686800
+            ],
+            [
+              341800,
+              5687700
+            ],
+            [
+              342700,
+              5688600
+            ],
+            [
+              343600,
+              5687700
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "e44e102d-abae-43d6-a1e5-47058dba5da5",
+        "_dic_id": "fwrsir",
+        "nummer": "S074",
+        "beschallungsradius": "900",
+        "adresse": "Rheinweg 1",
+        "plz": "40489",
+        "stadtteil": "Wittlaer",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.b4c36cd4-31a6-4837-ba30-242f6849589f",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              343300,
+              5685800
+            ],
+            [
+              342300,
+              5684800
+            ],
+            [
+              341300,
+              5685800
+            ],
+            [
+              342300,
+              5686800
+            ],
+            [
+              343300,
+              5685800
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "b4c36cd4-31a6-4837-ba30-242f6849589f",
+        "_dic_id": "fwrsir",
+        "nummer": "S075",
+        "beschallungsradius": "1000",
+        "adresse": "Kaiserwerther Markt 40",
+        "plz": "40489",
+        "stadtteil": "Kaiserswerth",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.9d82a697-3bc3-4da9-858e-c70ee95091d5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              344500,
+              5685800
+            ],
+            [
+              343700,
+              5685000
+            ],
+            [
+              342900,
+              5685800
+            ],
+            [
+              343700,
+              5686600
+            ],
+            [
+              344500,
+              5685800
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "9d82a697-3bc3-4da9-858e-c70ee95091d5",
+        "_dic_id": "fwrsir",
+        "nummer": "S076",
+        "beschallungsradius": "800",
+        "adresse": "Edmund-Bertrams-Straße 14",
+        "plz": "40489",
+        "stadtteil": "Kalkum",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.67cd584e-27d5-4427-9155-6ea39510a241",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              353900,
+              5681400
+            ],
+            [
+              353500,
+              5681000
+            ],
+            [
+              353100,
+              5681400
+            ],
+            [
+              353500,
+              5681800
+            ],
+            [
+              353900,
+              5681400
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "67cd584e-27d5-4427-9155-6ea39510a241",
+        "_dic_id": "fwrsir",
+        "nummer": "S077",
+        "beschallungsradius": "400",
+        "adresse": "Zum Winnenberg 1",
+        "plz": "40629",
+        "stadtteil": "Hubbelrath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.288520e1-a37a-4b5e-bdb2-cc3f31cdbcb4",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              354600,
+              5680600
+            ],
+            [
+              354000,
+              5680000
+            ],
+            [
+              353400,
+              5680600
+            ],
+            [
+              354000,
+              5681200
+            ],
+            [
+              354600,
+              5680600
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "288520e1-a37a-4b5e-bdb2-cc3f31cdbcb4",
+        "_dic_id": "fwrsir",
+        "nummer": "S078",
+        "beschallungsradius": "600",
+        "adresse": "Dorfstraße 13",
+        "plz": "40629",
+        "stadtteil": "Hubbelrath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.2d81b480-b4dc-4aea-a6ab-363d2e048955",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              354200,
+              5674300
+            ],
+            [
+              353600,
+              5673700
+            ],
+            [
+              353000,
+              5674300
+            ],
+            [
+              353600,
+              5674900
+            ],
+            [
+              354200,
+              5674300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "2d81b480-b4dc-4aea-a6ab-363d2e048955",
+        "_dic_id": "fwrsir",
+        "nummer": "S079",
+        "beschallungsradius": "600",
+        "adresse": "Gerresheimer Landstraße 42",
+        "plz": "40627",
+        "stadtteil": "Unterbach",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.e57f1826-edb1-4e21-bde2-f97d25b04287",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347700,
+              5671000
+            ],
+            [
+              346700,
+              5670000
+            ],
+            [
+              345700,
+              5671000
+            ],
+            [
+              346700,
+              5672000
+            ],
+            [
+              347700,
+              5671000
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "e57f1826-edb1-4e21-bde2-f97d25b04287",
+        "_dic_id": "fwrsir",
+        "nummer": "S080",
+        "beschallungsradius": "1000",
+        "adresse": "Steinkaul 27",
+        "plz": "40589",
+        "stadtteil": "Himmelgeist",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.5cc4da28-c81c-4dc4-b4a0-83ef658679d7",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              349300,
+              5671500
+            ],
+            [
+              348400,
+              5670600
+            ],
+            [
+              347500,
+              5671500
+            ],
+            [
+              348400,
+              5672400
+            ],
+            [
+              349300,
+              5671500
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "5cc4da28-c81c-4dc4-b4a0-83ef658679d7",
+        "_dic_id": "fwrsir",
+        "nummer": "S081",
+        "beschallungsradius": "900",
+        "adresse": "Itterstraße 16",
+        "plz": "40589",
+        "stadtteil": "Holthausen",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.06955d95-652b-4daf-9df9-0787f1497036",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              350300,
+              5678900
+            ],
+            [
+              349600,
+              5678200
+            ],
+            [
+              348900,
+              5678900
+            ],
+            [
+              349600,
+              5679600
+            ],
+            [
+              350300,
+              5678900
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "06955d95-652b-4daf-9df9-0787f1497036",
+        "_dic_id": "fwrsir",
+        "nummer": "S082",
+        "beschallungsradius": "700",
+        "adresse": "Bergische Land Straße 2",
+        "plz": "40629",
+        "stadtteil": "Ludenberg",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.9edcca26-98ce-4d7e-a6fd-a607432aa56c",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348900,
+              5675600
+            ],
+            [
+              348000,
+              5674700
+            ],
+            [
+              347100,
+              5675600
+            ],
+            [
+              348000,
+              5676500
+            ],
+            [
+              348900,
+              5675600
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "9edcca26-98ce-4d7e-a6fd-a607432aa56c",
+        "_dic_id": "fwrsir",
+        "nummer": "S083",
+        "beschallungsradius": "900",
+        "adresse": "Erkrather Straße 381",
+        "plz": "40231",
+        "stadtteil": "Lierenfeld",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.3b3ee5d7-48ba-4330-8beb-831534d4c2ac",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              349100,
+              5681700
+            ],
+            [
+              348200,
+              5680800
+            ],
+            [
+              347300,
+              5681700
+            ],
+            [
+              348200,
+              5682600
+            ],
+            [
+              349100,
+              5681700
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "3b3ee5d7-48ba-4330-8beb-831534d4c2ac",
+        "_dic_id": "fwrsir",
+        "nummer": "S084",
+        "beschallungsradius": "900",
+        "adresse": "Amalienstraße 9 ",
+        "plz": "40472",
+        "stadtteil": "Rath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.19ea8483-c7ab-4b09-8863-394d2aaee766",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              346100,
+              5682300
+            ],
+            [
+              345300,
+              5681500
+            ],
+            [
+              344500,
+              5682300
+            ],
+            [
+              345300,
+              5683100
+            ],
+            [
+              346100,
+              5682300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "19ea8483-c7ab-4b09-8863-394d2aaee766",
+        "_dic_id": "fwrsir",
+        "nummer": "S085",
+        "beschallungsradius": "800",
+        "adresse": "Cloppenburger Weg 27",
+        "plz": "40468",
+        "stadtteil": "Unterrath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.2c21d4a0-12d2-4795-b448-1f9900b7fbca",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348000,
+              5680600
+            ],
+            [
+              347200,
+              5679800
+            ],
+            [
+              346400,
+              5680600
+            ],
+            [
+              347200,
+              5681400
+            ],
+            [
+              348000,
+              5680600
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "2c21d4a0-12d2-4795-b448-1f9900b7fbca",
+        "_dic_id": "fwrsir",
+        "nummer": "S086",
+        "beschallungsradius": "800",
+        "adresse": "Wrangelstraße 40",
+        "plz": "40470",
+        "stadtteil": "Mörsenbroich",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.9fdcaf67-3196-4c7e-a453-307f353fb07a",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347000,
+              5676200
+            ],
+            [
+              346100,
+              5675300
+            ],
+            [
+              345200,
+              5676200
+            ],
+            [
+              346100,
+              5677100
+            ],
+            [
+              347000,
+              5676200
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "9fdcaf67-3196-4c7e-a453-307f353fb07a",
+        "_dic_id": "fwrsir",
+        "nummer": "S087",
+        "beschallungsradius": "900",
+        "adresse": "Ellerstraße 84",
+        "plz": "40227",
+        "stadtteil": "Oberbilk",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.eedd9931-054c-49a9-878d-29903c124ed6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              342800,
+              5678500
+            ],
+            [
+              342000,
+              5677700
+            ],
+            [
+              341200,
+              5678500
+            ],
+            [
+              342000,
+              5679300
+            ],
+            [
+              342800,
+              5678500
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "eedd9931-054c-49a9-878d-29903c124ed6",
+        "_dic_id": "fwrsir",
+        "nummer": "S088",
+        "beschallungsradius": "800",
+        "adresse": "Heerdter Sandberg 30",
+        "plz": "40549",
+        "stadtteil": "Oberkassel",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.6a790802-d0a3-4888-a9ef-090047cf35c5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              346100,
+              5676300
+            ],
+            [
+              345300,
+              5675500
+            ],
+            [
+              344500,
+              5676300
+            ],
+            [
+              345300,
+              5677100
+            ],
+            [
+              346100,
+              5676300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "6a790802-d0a3-4888-a9ef-090047cf35c5",
+        "_dic_id": "fwrsir",
+        "nummer": "S089",
+        "beschallungsradius": "800",
+        "adresse": "Luisenstraße 73",
+        "plz": "40215",
+        "stadtteil": "Friedrichstadt",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.a8770ca5-45de-4f4c-90ee-dacb0fa89b86",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              352800,
+              5675300
+            ],
+            [
+              352000,
+              5674500
+            ],
+            [
+              351200,
+              5675300
+            ],
+            [
+              352000,
+              5676100
+            ],
+            [
+              352800,
+              5675300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "a8770ca5-45de-4f4c-90ee-dacb0fa89b86",
+        "_dic_id": "fwrsir",
+        "nummer": "S090",
+        "beschallungsradius": "800",
+        "adresse": "Rathelbeckstraße 284",
+        "plz": "40627",
+        "stadtteil": "Unterbach",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.498692af-5001-4a79-9732-0175f863e640",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              343700,
+              5686300
+            ],
+            [
+              342900,
+              5685500
+            ],
+            [
+              342100,
+              5686300
+            ],
+            [
+              342900,
+              5687100
+            ],
+            [
+              343700,
+              5686300
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "498692af-5001-4a79-9732-0175f863e640",
+        "_dic_id": "fwrsir",
+        "nummer": "S091",
+        "beschallungsradius": "800",
+        "adresse": "Kalkumer Schloßallee 28",
+        "plz": "40489",
+        "stadtteil": "Kaiserswerth",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.f2daf742-a8c1-4267-92df-3c2779dd1c39",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348800,
+              5680100
+            ],
+            [
+              348000,
+              5679300
+            ],
+            [
+              347200,
+              5680100
+            ],
+            [
+              348000,
+              5680900
+            ],
+            [
+              348800,
+              5680100
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "f2daf742-a8c1-4267-92df-3c2779dd1c39",
+        "_dic_id": "fwrsir",
+        "nummer": "S092",
+        "beschallungsradius": "800",
+        "adresse": "Jean Paul Straße 3",
+        "plz": "40470",
+        "stadtteil": "Rath",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.613c6fb2-e3bd-4942-962b-c878764610f3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              349300,
+              5677700
+            ],
+            [
+              348400,
+              5676800
+            ],
+            [
+              347500,
+              5677700
+            ],
+            [
+              348400,
+              5678600
+            ],
+            [
+              349300,
+              5677700
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "613c6fb2-e3bd-4942-962b-c878764610f3",
+        "_dic_id": "fwrsir",
+        "nummer": "S094",
+        "beschallungsradius": "900",
+        "adresse": "Lürmannstraße 15",
+        "plz": "40235",
+        "stadtteil": "Flingern Nord",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.25d80be1-5be7-4fc0-8bda-0ef22f527f18",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              343000,
+              5675100
+            ],
+            [
+              342200,
+              5674300
+            ],
+            [
+              341400,
+              5675100
+            ],
+            [
+              342200,
+              5675900
+            ],
+            [
+              343000,
+              5675100
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "25d80be1-5be7-4fc0-8bda-0ef22f527f18",
+        "_dic_id": "fwrsir",
+        "nummer": "S095",
+        "beschallungsradius": "800",
+        "adresse": "Heinsenstraße 21",
+        "plz": "40221",
+        "stadtteil": "Hamm",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.35104d01-3cff-4ea5-aedc-93ed4d5fad48",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345500,
+              5680000
+            ],
+            [
+              344700,
+              5679200
+            ],
+            [
+              343900,
+              5680000
+            ],
+            [
+              344700,
+              5680800
+            ],
+            [
+              345500,
+              5680000
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "35104d01-3cff-4ea5-aedc-93ed4d5fad48",
+        "_dic_id": "fwrsir",
+        "nummer": "S096",
+        "beschallungsradius": "800",
+        "adresse": "Roßstraße 130",
+        "plz": "40476",
+        "stadtteil": "Golzheim",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.5e38f3de-7528-4f5b-9838-8c22fe0bff49",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345000,
+              5675600
+            ],
+            [
+              344200,
+              5674800
+            ],
+            [
+              343400,
+              5675600
+            ],
+            [
+              344200,
+              5676400
+            ],
+            [
+              345000,
+              5675600
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "5e38f3de-7528-4f5b-9838-8c22fe0bff49",
+        "_dic_id": "fwrsir",
+        "nummer": "S097",
+        "beschallungsradius": "800",
+        "adresse": "Kronprinzenstraße 105a",
+        "plz": "40217",
+        "stadtteil": "Unterbilk",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.de086dba-3f8d-403b-9fbf-a341eebba931",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              344400,
+              5673000
+            ],
+            [
+              343600,
+              5672200
+            ],
+            [
+              342800,
+              5673000
+            ],
+            [
+              343600,
+              5673800
+            ],
+            [
+              344400,
+              5673000
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "de086dba-3f8d-403b-9fbf-a341eebba931",
+        "_dic_id": "fwrsir",
+        "nummer": "S098",
+        "beschallungsradius": "800",
+        "adresse": "Volmerswerther Straße 429",
+        "plz": "40221",
+        "stadtteil": "Volmerswerth",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.fbec8b45-fd02-4200-b89b-8efdec6db66a",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              344000,
+              5681900
+            ],
+            [
+              343200,
+              5681100
+            ],
+            [
+              342400,
+              5681900
+            ],
+            [
+              343200,
+              5682700
+            ],
+            [
+              344000,
+              5681900
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "fbec8b45-fd02-4200-b89b-8efdec6db66a",
+        "_dic_id": "fwrsir",
+        "nummer": "S099",
+        "beschallungsradius": "800",
+        "adresse": "Niederrheinstraße 1",
+        "plz": "40474",
+        "stadtteil": "Stockum",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fwr_sirenen.d145fb15-e4ae-4a9f-a53d-6a070c94ebce",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              344300,
+              5677800
+            ],
+            [
+              343400,
+              5676900
+            ],
+            [
+              342500,
+              5677800
+            ],
+            [
+              343400,
+              5678700
+            ],
+            [
+              344300,
+              5677800
+            ]
+          ]
+        ]
+      },
+      "geometry_name": "_geometry",
+      "properties": {
+        "_uuid": "d145fb15-e4ae-4a9f-a53d-6a070c94ebce",
+        "_dic_id": "fwrsir",
+        "nummer": "S100",
+        "beschallungsradius": "900",
+        "adresse": "Salierstraße 37",
+        "plz": "40545",
+        "stadtteil": "Oberkassel",
+        "stadt": "Düsseldorf",
+        "_last_update": "2026-04-15"
+      }
+    }
+  ],
+  "totalFeatures": "unknown",
+  "numberReturned": 95,
+  "timeStamp": "2026-09-10T12:12:25.182Z",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::25832"
+    }
+  }
+}
