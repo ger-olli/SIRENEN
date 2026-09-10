@@ -1,96 +1,58 @@
-﻿nummer,adresse,plz,stadtteil,stadt,beschallungsradius,_last_update,_dic_id,_uuid
-S001,Heerdter Landstraße 186,40549,Heerdt,Düsseldorf,1000,2026-04-15,fwrsir,96cd28ef-f1fa-46d2-a580-c4f115e96e8c
-S002,Grevenbroicher Weg 70,40547,Lörick,Düsseldorf,900,2026-04-15,fwrsir,ebb11104-8107-402a-bfde-a8cf13ac6af2
-S003,Comeniusstraße 1,40545,Oberkassel,Düsseldorf,1000,2026-04-15,fwrsir,01dabe28-6a9f-4bfe-a5e1-7df92ee219b5
-S004,Am Heerdter Krankenhaus 2,40549,Heerdt,Düsseldorf,800,2026-04-15,fwrsir,b6c2fb2b-3054-4e65-a0c2-2c641412b01b
-S005,Emanuel-Leutze-Straße 8,40547,Lörick,Düsseldorf,600,2026-04-15,fwrsir,1adf8622-5b33-4c6e-a081-d6a8dd4c9492
-S010,Im Grund 78,40474,Lohausen,Düsseldorf,1000,2026-04-15,fwrsir,8fc6916b-96a0-4e18-bd73-db2728b37000
-S011,Am Staad 100,40474,Stockum,Düsseldorf,600,2026-04-15,fwrsir,7418814b-2d29-4a13-a235-f901ff21e452
-S012,Stockumer Kirchstraße 61,40474,Stockum,Düsseldorf,1000,2026-04-15,fwrsir,7fb89d5b-3954-40ee-b0f3-05e97e2585c0
-S013,An der Golzheimer Heide 120,40468,Unterrath,Düsseldorf,1000,2026-04-15,fwrsir,906a36e9-df60-47cc-a8c6-f801a4c5169a
-S014,Tersteegenstraße 28,40474,Golzheim,Düsseldorf,800,2026-04-15,fwrsir,984e4558-202c-483a-ad17-8a402b5bfc64
-S015,Rather Straße 51,40476,Derendorf,Düsseldorf,1000,2026-04-15,fwrsir,0f1b2b9f-a0da-45ce-8c02-f9599048db07
-S016,Heinrichstraße 24,40239,Düsseltal,Düsseldorf,1000,2026-04-15,fwrsir,f92d3ca1-4ddd-4dea-b278-4d26ed62567d
-S017,Cecilienallee 3,40474,Pempelfort,Düsseldorf,900,2026-04-15,fwrsir,33266828-f26a-497f-b9d5-d5552f495f27
-S018,Franklinstraße 41 - 43,40479,Pempelfort,Düsseldorf,800,2026-04-15,fwrsir,8988166d-44af-44f6-b618-cfc968fd6de9
-S019,Königsallee 1 - 9 (1),40213,Stadtmitte,Düsseldorf,800,2026-04-15,fwrsir,2403ab9d-c588-4dbd-9f1b-0959cec4e353
-S020,Konrad-Adenauer-Platz 1 (1-1a),40210,Stadtmitte,Düsseldorf,800,2026-04-15,fwrsir,2def8a75-4be2-4815-9324-92787dede1e9
-S021,Hoffeldstraße 69,40235,Flingern Nord,Düsseldorf,800,2026-04-15,fwrsir,a583b449-0a56-4048-ac2a-9c88421acba2
-S022,Hamburger Straße 5,40221,Hafen,Düsseldorf,1000,2026-04-15,fwrsir,bb04b738-de11-4b67-bd60-d89b95598617
-S023,Speditionstraße 17,40221,Hafen,Düsseldorf,800,2026-04-15,fwrsir,f1d81816-dec5-4a94-bf09-d2e4e5389d1b
-S024,Kronprinzenstraße 2,40217,Unterbilk,Düsseldorf,800,2026-04-15,fwrsir,72e23709-76ce-480d-afba-4bbbe89a73ef
-S025,Georg-Schulhoff-Platz 1,40221,Bilk,Düsseldorf,800,2026-04-15,fwrsir,ad0a3c7a-82a7-41d2-825e-e83c15298ac9
-S026,Fleher Straße 213,40223,Flehe,Düsseldorf,1000,2026-04-15,fwrsir,cbcbcea6-ecc4-4aa3-9162-2e4a11bee365
-S027,Auf dem Draap 25,40221,Hamm,Düsseldorf,1000,2026-04-15,fwrsir,ecbd9259-a2d3-4cf6-a4e8-8983b410ba35
-S028,Auf´m Hennekamp 45,40225,Bilk,Düsseldorf,800,2026-04-15,fwrsir,a1d764c5-57fb-4cf6-921e-bbb732d940b9
-S029,Universitätsstraße 48,40225,Bilk,Düsseldorf,1000,2026-04-15,fwrsir,22acabd3-7e2b-4cab-af34-29c89850e0a2
-S030,Itterstraße 116,40589,Holthausen,Düsseldorf,800,2026-04-15,fwrsir,d2879ed9-60fd-448b-9d1c-dd13e69482c2
-S031,Otto-Hahn-Straße 42,40591,Wersten,Düsseldorf,1000,2026-04-15,fwrsir,0fdc822a-43f1-4c57-b467-a2d64797751d
-S032,Kölner Landstraße 169,40591,Wersten,Düsseldorf,900,2026-04-15,fwrsir,573dee72-2073-4592-8130-594a95e992fb
-S033,Siegburger Straße 139 (137),40591,Oberbilk,Düsseldorf,1000,2026-04-15,fwrsir,d1e9f387-c06f-4f02-b902-577e513f8f90
-S034,Höherweg 43 (41-43),40233,Flingern Süd,Düsseldorf,800,2026-04-15,fwrsir,1e203efb-5bbf-4243-92af-4ad4c742f0e8
-S035,Stoffeler Straße 11,40227,Oberbilk,Düsseldorf,800,2026-04-15,fwrsir,50fbbb09-7ea2-4df4-92b5-dbf5d0ab1647
-S036,Am Trippelsberg 48,40589,Holthausen,Düsseldorf,800,2026-04-15,fwrsir,ea000af5-3981-4c8e-a9ff-7357f3edd196
-S037,Benrodestraße 46,40597,Benrath,Düsseldorf,800,2026-04-15,fwrsir,4e3293f5-aa72-4ee6-aac0-eac7c698e252
-S038,Lärchenweg 12,40599,Hassels,Düsseldorf,1000,2026-04-15,fwrsir,024c3084-0aa1-431e-9554-e11897b5e8e7
-S039,Schimmelpfennigstraße 1,40597,Benrath,Düsseldorf,1000,2026-04-15,fwrsir,f94335f1-659c-4467-916d-a7cbbc7a67fb
-S040,Grenzweg 12,40489,Wittlaer,Düsseldorf,800,2026-04-15,fwrsir,621db6f4-a919-4918-b05a-254d5265eccc
-S041,Corneliusstraße 86,40215,Friedrichstadt,Düsseldorf,500,2026-04-15,fwrsir,cbff2c2e-32e3-41ca-8223-1a013caa137c
-S042,Hügelstraße 52 (-62),40591,Wersten,Düsseldorf,1000,2026-04-15,fwrsir,15eb3cf4-e878-4e6e-b54b-66a206eae1b2
-S043,Potsdamer Straße 16,40599,Hassels,Düsseldorf,1000,2026-04-15,fwrsir,a2d2030f-f841-47c0-a9e2-1413d91e1305
-S044,Fuldaer Straße 33,40229,Eller,Düsseldorf,800,2026-04-15,fwrsir,adf56e04-80e9-4520-a703-14bc379b7889
-S045,Heidelberger Straße 75,40229,Eller,Düsseldorf,800,2026-04-15,fwrsir,f1a6b39c-4668-4fed-a149-63f49036cfa6
-S046,Zwickauer Straße 25,40627,Vennhausen,Düsseldorf,800,2026-04-15,fwrsir,e591d65d-f4b0-4416-87ae-441de322ea11
-S047,Ellerbittweg 11 (9-11),40229,Eller,Düsseldorf,800,2026-04-15,fwrsir,a560cfd9-34f1-4e73-b768-09560e12298e
-S048,Posener Straße 129,40231,Eller,Düsseldorf,800,2026-04-15,fwrsir,1ca1ea13-0e38-4a25-b3a1-e75c68cd5d0f
-S049,Königsberger Straße 100,40231,Lierenfeld,Düsseldorf,800,2026-04-15,fwrsir,5fa44773-d553-4251-86d2-d0f176477bca
-S050,Lohbachweg 33 (31-35),40625,Gerresheim,Düsseldorf,900,2026-04-15,fwrsir,2ccb887f-9e32-4d71-879d-4e81f3798071
-S051,Heyestraße 91,40625,Gerresheim,Düsseldorf,900,2026-04-15,fwrsir,22358801-094a-4398-9a6c-66a22bc962cf
-S052,Arnstadter Weg 6 - 16 (Erfurter Weg 45),40627,Vennhausen,Düsseldorf,850,2026-04-15,fwrsir,79c0b6b2-3e59-4200-9692-f669ba5d9879
-S053,Am Pfaffenbusch / Gerresheimer Landstraße,40627,Unterbach,Düsseldorf,800,2026-04-15,fwrsir,7def5c3a-f25f-4522-b2bd-4797dc38567d
-S054,Am Poth 60,40625,Gerresheim,Düsseldorf,800,2026-04-15,fwrsir,be97549d-44f1-4371-977f-e2b327f27d8a
-S055,Grafenberger Allee 384,40235,Grafenberg,Düsseldorf,800,2026-04-15,fwrsir,1b6cfa1a-d617-4594-8a34-541dfda672f4
-S056,Pöhlenweg 81,40629,Grafenberg,Düsseldorf,900,2026-04-15,fwrsir,0ae2d054-2949-482c-8f36-a0fb33840453
-S057,Blanckertzstraße 26 (24-26),40629,Ludenberg,Düsseldorf,1000,2026-04-15,fwrsir,a2fbcb36-f059-4298-abaf-c2e5525f5bc2
-S058,Rather Kreuzweg 21 (21-29),40472,Rath,Düsseldorf,800,2026-04-15,fwrsir,6f3d065c-aab8-46d1-88fa-c81b424e0df6
-S059,Herdecker Straße 1,40472,Rath,Düsseldorf,800,2026-04-15,fwrsir,9d72bd5e-e763-4b81-bf45-0b5b7fcb8d91
-S060,Krahnenburgstraße 15,40472,Lichtenbroich,Düsseldorf,800,2026-04-15,fwrsir,5ff1a437-ca5a-46cb-adb8-a47f4d78e1b5
-S061,Niederrheinstraße 336,40489,Kaiserswerth,Düsseldorf,1000,2026-04-15,fwrsir,52713c49-6298-4963-8fcd-82d38113b551
-S062,Einbrunger Straße 82,40489,Wittlaer,Düsseldorf,1000,2026-04-15,fwrsir,bf20e66e-4b3a-48b3-b83f-281ec2032c9d
-S063,Kappelerstraße,40599,Reisholz,Düsseldorf,900,2026-04-15,fwrsir,854cceb1-f4f2-4457-8695-ee8ccb56baf1
-S064,Theodorstraße 180,40472,Rath,Düsseldorf,800,2026-04-15,fwrsir,dc4d4626-bc9a-4cff-a16e-929ac0f9ea30
-S065,Am Feldhof 13,40629,Knittkuhl,Düsseldorf,900,2026-04-15,fwrsir,3e569bc6-34ac-4d66-a228-ed39cc11317d
-S066,Lindemannstraße 57,40237,Düsseltal,Düsseldorf,700,2026-04-15,fwrsir,92cd6c11-e6a2-459b-b9eb-911e27877294
-S067,Essener Straße 1,40476,Derendorf,Düsseldorf,700,2026-04-15,fwrsir,6f848d4f-1b40-402a-bd0a-cfde33f11947
-S068,Parsevalstraße 9b (7-9c),40468,Unterrath,Düsseldorf,700,2026-04-15,fwrsir,dbd7fbae-7363-4d13-9894-f4038017fdae
-S069,Flughafenstraße 105,40474,Unterrath,Düsseldorf,800,2026-04-15,fwrsir,4edea600-4e33-4bb4-bdc9-7b22f453a80e
-S070,Bahnhofstraße 1,40489,Angermund,Düsseldorf,1000,2026-04-15,fwrsir,6b15e7c6-91e1-49b6-8a90-62e8272efb23
-S071,Freiheitshagen 33,40489,Angermund,Düsseldorf,700,2026-04-15,fwrsir,e1da68bd-1d55-4f45-b2a6-221540f08a5f
-S072,Wacholderstraße 30a,40489,Angermund,Düsseldorf,400,2026-04-15,fwrsir,ef8a76a0-2a3b-4168-b9fb-e1aa6a587e5a
-S073,Wasserwerksweg 60,40489,Wittlaer,Düsseldorf,1000,2026-04-15,fwrsir,31c90bcf-20f3-44c2-99b8-9496dd6766e9
-S074,Rheinweg 1,40489,Wittlaer,Düsseldorf,900,2026-04-15,fwrsir,e44e102d-abae-43d6-a1e5-47058dba5da5
-S075,Kaiserwerther Markt 40,40489,Kaiserswerth,Düsseldorf,1000,2026-04-15,fwrsir,b4c36cd4-31a6-4837-ba30-242f6849589f
-S076,Edmund-Bertrams-Straße 14,40489,Kalkum,Düsseldorf,800,2026-04-15,fwrsir,9d82a697-3bc3-4da9-858e-c70ee95091d5
-S077,Zum Winnenberg 1,40629,Hubbelrath,Düsseldorf,400,2026-04-15,fwrsir,67cd584e-27d5-4427-9155-6ea39510a241
-S078,Dorfstraße 13,40629,Hubbelrath,Düsseldorf,600,2026-04-15,fwrsir,288520e1-a37a-4b5e-bdb2-cc3f31cdbcb4
-S079,Gerresheimer Landstraße 42,40627,Unterbach,Düsseldorf,600,2026-04-15,fwrsir,2d81b480-b4dc-4aea-a6ab-363d2e048955
-S080,Steinkaul 27,40589,Himmelgeist,Düsseldorf,1000,2026-04-15,fwrsir,e57f1826-edb1-4e21-bde2-f97d25b04287
-S081,Itterstraße 16,40589,Holthausen,Düsseldorf,900,2026-04-15,fwrsir,5cc4da28-c81c-4dc4-b4a0-83ef658679d7
-S082,Bergische Land Straße 2,40629,Ludenberg,Düsseldorf,700,2026-04-15,fwrsir,06955d95-652b-4daf-9df9-0787f1497036
-S083,Erkrather Straße 381,40231,Lierenfeld,Düsseldorf,900,2026-04-15,fwrsir,9edcca26-98ce-4d7e-a6fd-a607432aa56c
-S084,Amalienstraße 9 ,40472,Rath,Düsseldorf,900,2026-04-15,fwrsir,3b3ee5d7-48ba-4330-8beb-831534d4c2ac
-S085,Cloppenburger Weg 27,40468,Unterrath,Düsseldorf,800,2026-04-15,fwrsir,19ea8483-c7ab-4b09-8863-394d2aaee766
-S086,Wrangelstraße 40,40470,Mörsenbroich,Düsseldorf,800,2026-04-15,fwrsir,2c21d4a0-12d2-4795-b448-1f9900b7fbca
-S087,Ellerstraße 84,40227,Oberbilk,Düsseldorf,900,2026-04-15,fwrsir,9fdcaf67-3196-4c7e-a453-307f353fb07a
-S088,Heerdter Sandberg 30,40549,Oberkassel,Düsseldorf,800,2026-04-15,fwrsir,eedd9931-054c-49a9-878d-29903c124ed6
-S089,Luisenstraße 73,40215,Friedrichstadt,Düsseldorf,800,2026-04-15,fwrsir,6a790802-d0a3-4888-a9ef-090047cf35c5
-S090,Rathelbeckstraße 284,40627,Unterbach,Düsseldorf,800,2026-04-15,fwrsir,a8770ca5-45de-4f4c-90ee-dacb0fa89b86
-S091,Kalkumer Schloßallee 28,40489,Kaiserswerth,Düsseldorf,800,2026-04-15,fwrsir,498692af-5001-4a79-9732-0175f863e640
-S092,Jean Paul Straße 3,40470,Rath,Düsseldorf,800,2026-04-15,fwrsir,f2daf742-a8c1-4267-92df-3c2779dd1c39
-S094,Lürmannstraße 15,40235,Flingern Nord,Düsseldorf,900,2026-04-15,fwrsir,613c6fb2-e3bd-4942-962b-c878764610f3
-S095,Heinsenstraße 21,40221,Hamm,Düsseldorf,800,2026-04-15,fwrsir,25d80be1-5be7-4fc0-8bda-0ef22f527f18
-S096,Roßstraße 130,40476,Golzheim,Düsseldorf,800,2026-04-15,fwrsir,35104d01-3cff-4ea5-aedc-93ed4d5fad48
-S097,Kronprinzenstraße 105a,40217,Unterbilk,Düsseldorf,800,2026-04-15,fwrsir,5e38f3de-7528-4f5b-9838-8c22fe0bff49
-S098,Volmerswerther Straße 429,40221,Volmerswerth,Düsseldorf,800,2026-04-15,fwrsir,de086dba-3f8d-403b-9fbf-a341eebba931
-S099,Niederrheinstraße 1,40474,Stockum,Düsseldorf,800,2026-04-15,fwrsir,fbec8b45-fd02-4200-b89b-8efdec6db66a
-S100,Salierstraße 37,40545,Oberkassel,Düsseldorf,900,2026-04-15,fwrsir,d145fb15-e4ae-4a9f-a53d-6a070c94ebce
+﻿nummer,adresse,plz,stadtteil,stadt,beschallungsradius,_last_update,_uuid,_dic_id
+S001,Heerdter Landstraße 186,40549,Heerdt,Düsseldorf,1000,2026-04-15,96cd28ef-f1fa-46d2-a580-c4f115e96e8c,fwrsir
+S003,Comeniusstraße 1,40545,Oberkassel,Düsseldorf,1000,2026-04-15,01dabe28-6a9f-4bfe-a5e1-7df92ee219b5,fwrsir
+S004,Am Heerdter Krankenhaus 2,40549,Heerdt,Düsseldorf,800,2026-04-15,b6c2fb2b-3054-4e65-a0c2-2c641412b01b,fwrsir
+S007,Emil-Barth-Straße 1 (1-7),40595,Garath,Düsseldorf,1000,2026-04-15,b13985a1-37dc-4b8b-a6d2-43a52a3ad824,fwrsir
+S010,Im Grund 78,40474,Lohausen,Düsseldorf,1000,2026-04-15,8fc6916b-96a0-4e18-bd73-db2728b37000,fwrsir
+S013,An der Golzheimer Heide 120,40468,Unterrath,Düsseldorf,1000,2026-04-15,906a36e9-df60-47cc-a8c6-f801a4c5169a,fwrsir
+S019,Königsallee 1 - 9 (1),40213,Stadtmitte,Düsseldorf,800,2026-04-15,2403ab9d-c588-4dbd-9f1b-0959cec4e353,fwrsir
+S020,Konrad-Adenauer-Platz 1 (1-1a),40210,Stadtmitte,Düsseldorf,800,2026-04-15,2def8a75-4be2-4815-9324-92787dede1e9,fwrsir
+S021,Hoffeldstraße 69,40235,Flingern Nord,Düsseldorf,800,2026-04-15,a583b449-0a56-4048-ac2a-9c88421acba2,fwrsir
+S022,Hamburger Straße 5,40221,Hafen,Düsseldorf,1000,2026-04-15,bb04b738-de11-4b67-bd60-d89b95598617,fwrsir
+S023,Speditionstraße 17,40221,Hafen,Düsseldorf,800,2026-04-15,f1d81816-dec5-4a94-bf09-d2e4e5389d1b,fwrsir
+S024,Kronprinzenstraße 2,40217,Unterbilk,Düsseldorf,800,2026-04-15,72e23709-76ce-480d-afba-4bbbe89a73ef,fwrsir
+S025,Georg-Schulhoff-Platz 1,40221,Bilk,Düsseldorf,800,2026-04-15,ad0a3c7a-82a7-41d2-825e-e83c15298ac9,fwrsir
+S026,Fleher Straße 213,40223,Flehe,Düsseldorf,1000,2026-04-15,cbcbcea6-ecc4-4aa3-9162-2e4a11bee365,fwrsir
+S027,Auf dem Draap 25,40221,Hamm,Düsseldorf,1000,2026-04-15,ecbd9259-a2d3-4cf6-a4e8-8983b410ba35,fwrsir
+S028,Auf´m Hennekamp 45,40225,Bilk,Düsseldorf,800,2026-04-15,a1d764c5-57fb-4cf6-921e-bbb732d940b9,fwrsir
+S029,Universitätsstraße 48,40225,Bilk,Düsseldorf,1000,2026-04-15,22acabd3-7e2b-4cab-af34-29c89850e0a2,fwrsir
+S030,Itterstraße 116,40589,Holthausen,Düsseldorf,800,2026-04-15,d2879ed9-60fd-448b-9d1c-dd13e69482c2,fwrsir
+S031,Otto-Hahn-Straße 42,40591,Wersten,Düsseldorf,1000,2026-04-15,0fdc822a-43f1-4c57-b467-a2d64797751d,fwrsir
+S032,Kölner Landstraße 169,40591,Wersten,Düsseldorf,900,2026-04-15,573dee72-2073-4592-8130-594a95e992fb,fwrsir
+S033,Siegburger Straße 139 (137),40591,Oberbilk,Düsseldorf,1000,2026-04-15,d1e9f387-c06f-4f02-b902-577e513f8f90,fwrsir
+S034,Höherweg 43 (41-43),40233,Flingern Süd,Düsseldorf,800,2026-04-15,1e203efb-5bbf-4243-92af-4ad4c742f0e8,fwrsir
+S035,Stoffeler Straße 11,40227,Oberbilk,Düsseldorf,800,2026-04-15,50fbbb09-7ea2-4df4-92b5-dbf5d0ab1647,fwrsir
+S038,Lärchenweg 12,40599,Hassels,Düsseldorf,1000,2026-04-15,024c3084-0aa1-431e-9554-e11897b5e8e7,fwrsir
+S039,Schimmelpfennigstraße 1,40597,Benrath,Düsseldorf,1000,2026-04-15,f94335f1-659c-4467-916d-a7cbbc7a67fb,fwrsir
+S040,Grenzweg 12,40489,Wittlaer,Düsseldorf,800,2026-04-15,621db6f4-a919-4918-b05a-254d5265eccc,fwrsir
+S041,Corneliusstraße 86,40215,Friedrichstadt,Düsseldorf,500,2026-04-15,cbff2c2e-32e3-41ca-8223-1a013caa137c,fwrsir
+S053,Am Pfaffenbusch / Gerresheimer Landstraße,40627,Unterbach,Düsseldorf,800,2026-04-15,7def5c3a-f25f-4522-b2bd-4797dc38567d,fwrsir
+S060,Krahnenburgstraße 15,40472,Lichtenbroich,Düsseldorf,800,2026-04-15,5ff1a437-ca5a-46cb-adb8-a47f4d78e1b5,fwrsir
+S061,Niederrheinstraße 336,40489,Kaiserswerth,Düsseldorf,1000,2026-04-15,52713c49-6298-4963-8fcd-82d38113b551,fwrsir
+S062,Einbrunger Straße 82,40489,Wittlaer,Düsseldorf,1000,2026-04-15,bf20e66e-4b3a-48b3-b83f-281ec2032c9d,fwrsir
+S064,Theodorstraße 180,40472,Rath,Düsseldorf,800,2026-04-15,dc4d4626-bc9a-4cff-a16e-929ac0f9ea30,fwrsir
+S066,Lindemannstraße 57,40237,Düsseltal,Düsseldorf,700,2026-04-15,92cd6c11-e6a2-459b-b9eb-911e27877294,fwrsir
+S068,Parsevalstraße 9b (7-9c),40468,Unterrath,Düsseldorf,700,2026-04-15,dbd7fbae-7363-4d13-9894-f4038017fdae,fwrsir
+S069,Flughafenstraße 105,40474,Unterrath,Düsseldorf,800,2026-04-15,4edea600-4e33-4bb4-bdc9-7b22f453a80e,fwrsir
+S070,Bahnhofstraße 1,40489,Angermund,Düsseldorf,1000,2026-04-15,6b15e7c6-91e1-49b6-8a90-62e8272efb23,fwrsir
+S071,Freiheitshagen 33,40489,Angermund,Düsseldorf,700,2026-04-15,e1da68bd-1d55-4f45-b2a6-221540f08a5f,fwrsir
+S072,Wacholderstraße 30a,40489,Angermund,Düsseldorf,400,2026-04-15,ef8a76a0-2a3b-4168-b9fb-e1aa6a587e5a,fwrsir
+S073,Wasserwerksweg 60,40489,Wittlaer,Düsseldorf,1000,2026-04-15,31c90bcf-20f3-44c2-99b8-9496dd6766e9,fwrsir
+S074,Rheinweg 1,40489,Wittlaer,Düsseldorf,900,2026-04-15,e44e102d-abae-43d6-a1e5-47058dba5da5,fwrsir
+S075,Kaiserwerther Markt 40,40489,Kaiserswerth,Düsseldorf,1000,2026-04-15,b4c36cd4-31a6-4837-ba30-242f6849589f,fwrsir
+S076,Edmund-Bertrams-Straße 14,40489,Kalkum,Düsseldorf,800,2026-04-15,9d82a697-3bc3-4da9-858e-c70ee95091d5,fwrsir
+S079,Gerresheimer Landstraße 42,40627,Unterbach,Düsseldorf,600,2026-04-15,2d81b480-b4dc-4aea-a6ab-363d2e048955,fwrsir
+S080,Steinkaul 27,40589,Himmelgeist,Düsseldorf,1000,2026-04-15,e57f1826-edb1-4e21-bde2-f97d25b04287,fwrsir
+S083,Erkrather Straße 381,40231,Lierenfeld,Düsseldorf,900,2026-04-15,9edcca26-98ce-4d7e-a6fd-a607432aa56c,fwrsir
+S085,Cloppenburger Weg 27,40468,Unterrath,Düsseldorf,800,2026-04-15,19ea8483-c7ab-4b09-8863-394d2aaee766,fwrsir
+S087,Ellerstraße 84,40227,Oberbilk,Düsseldorf,900,2026-04-15,9fdcaf67-3196-4c7e-a453-307f353fb07a,fwrsir
+S089,Luisenstraße 73,40215,Friedrichstadt,Düsseldorf,800,2026-04-15,6a790802-d0a3-4888-a9ef-090047cf35c5,fwrsir
+S090,Rathelbeckstraße 284,40627,Unterbach,Düsseldorf,800,2026-04-15,a8770ca5-45de-4f4c-90ee-dacb0fa89b86,fwrsir
+S091,Kalkumer Schloßallee 28,40489,Kaiserswerth,Düsseldorf,800,2026-04-15,498692af-5001-4a79-9732-0175f863e640,fwrsir
+S095,Heinsenstraße 21,40221,Hamm,Düsseldorf,800,2026-04-15,25d80be1-5be7-4fc0-8bda-0ef22f527f18,fwrsir
+S097,Kronprinzenstraße 105a,40217,Unterbilk,Düsseldorf,800,2026-04-15,5e38f3de-7528-4f5b-9838-8c22fe0bff49,fwrsir
+S098,Volmerswerther Straße 429,40221,Volmerswerth,Düsseldorf,800,2026-04-15,de086dba-3f8d-403b-9fbf-a341eebba931,fwrsir
+S099,Niederrheinstraße 1,40474,Stockum,Düsseldorf,800,2026-04-15,fbec8b45-fd02-4200-b89b-8efdec6db66a,fwrsir
+S100,Salierstraße 37,40545,Oberkassel,Düsseldorf,900,2026-04-15,d145fb15-e4ae-4a9f-a53d-6a070c94ebce,fwrsir
+S101,An der Kämpe 35,40595,Garath,Düsseldorf,800,2026-04-15,dfb633e1-b75c-44ed-b53f-81f4fb4d4f54,fwrsir
+S102,Dresdener Straße 31,40595,Hellerhof,Düsseldorf,900,2026-04-15,45e3449b-42b8-48b1-b33d-afa7b28e6231,fwrsir
